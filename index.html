@@ -1,243 +1,323 @@
- <!DOCTYPE html>
- <html lang ="en">
+<!DOCTYPE html>
+<html lang ="en">
 
-	 <head>
-    		<meta charset="utf-8">
-    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    		<meta name="viewport" content="width=device-width, initial-scale=1">
-    		<link  href="css/bootstrap.min.css" rel="stylesheet">
-    		<link  href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    		<link  href="css/bootstrap-social.css" rel="stylesheet">
-    		<link  href="css/custom.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link  href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link  href="css/bootstrap-social.css" rel="stylesheet">
+    <link  href="css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-		<title>Raymond Akagi</title>
-	 </head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Kaishin Kawada</title>
+  </head>
 
-	 <body>
-		
-<div class="container row1">
-<!--Row One -->
-	<div class="profile">
-		<div class="content">
-			<img class="img-responsive" src="images/raymond.jpg">
-			<h3>Raymond Akagi</h3>
-			<p>Mechanical Engineering</p>
-			<a href="#" class="btn btn-default " id="contactRay">Contact</a>
-			<!--Address 
-			<ul class="list-group">
-				<li>2475 Yaffe Dr. San Leandro, CA</li>
-				<li>(510)589-7731</li>
-				<li>rakagi@calpoly.edu</li>
-			</ul>
-			Address -->
-		</div>
+  <body>
+    <!--container-->
+    <div class="container">
+      <div class="toggle-button" id="profile-toggle">
+        <button  class="btn btn-lg btn-default" data-toggle="collapse" data-target="#profile">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+      <!--Profile-->
+      <div class="collapse in" id="profile">
+        <!--header-->
+        <div class="header">
+          <img id="portrait" class="img-responsive" src="images/proKoala1.jpg">
+          <h3>Philip Kaishin Kawada</h3>
+          <p>UI UX Developer | CS Student</p>
+          <a href="#contact" class="btn btn-default" id="contact-btn">Contact</a>
+        </div>
+        <!--end of header-->
+        <div class="break">
+        </div>
+        <!--navigation-->
+        <div class="navigation">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+          </ul>
+        </div>
+        <!--end of navigation-->
+      </div>
+      <!--end of Profile-->
+    </div>
+    <!--end of container-->
 
-<div id="info_nav_break">
-</div>
-		<!--Navigation-->
-		<div class="navigation">
-			<ul class="nav nav-pills nav-stacked">
-				<li><a href="#about">About</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#experience">Experience</a></li>
-			</ul>
-		</div>
-	</div>
+    <!--container-->
+    <div class="jumbotron">
+      <!--row1-->
+      <div class="row" id="row1">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9">
+          <div class="text-center" id="jumbotron-content">
+            <h1>Philip Kaishin Kawada</h1>
+            <h3>UI UX Developer | CS Student</h3>
+            <div class="break">
+            </div>
+            <ul class="list-inline">
+              <li>
+                <a href="https://codepen.io/koalakai/"class="btn btn-lg btn-social-icon">
+                  <i class="fa fa-codepen"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/philip-kawada-097969113"class="btn btn-lg btn-social-icon btn-linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/kaikaikoala"class="btn btn-lg btn-social-icon btn-github">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:kaishinpk@gmail.com"class="btn btn-lg btn-social-icon">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--end of col-->
+      </div>
+      <!--end of row1-->
+    </div>
+    <!--end of container-->
 
-<div class="row ">
-	<!--profile-->
-	<div class="col-md-3">
-	</div>
+    <!--container-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-9">
+          <!--About-->
+          <div class="about">
+            <a name="about"></a>
+            <h1>About</h1>
+            <h3>Hello World!</h3>
+            <p>My name is Philip Kawada, but most people use my middle name Kaishin. However, if you've ever see me on the soccer field you've probably heard my name shortened to Kai. I am a Junior at UC Riverside studying Computer Science, and I started my studies at Ohlone College leaving with an AS in CS. If you have any questions about me or this page please <a href="#contact">contact</a> me.</p>
+            <!--Education-->
+            <h3>Education</h3>
+            <!--row1 education-->
+            <div class="row education">
+              <div class="col-md-6">
+                <h4>University of California Riverside</h4>
+                <ul>
+                  <li>College: Bourns College of Engineering (BCOE)</li>
+                  <li>GPA: N/A</li>
+                  <li>Major: Computer Science (ENCS)</li>
+                  <li>Class: 2019</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h4>Ohlone College</h4>
+                <ul>
+                  <li>GPA: 3.7</li>
+                  <li>Degree: Associate's in Science Computer Science</li>
+                </ul>
+              </div>
+            </div>
+            <!--row2 education-->
+            <div class="row education">
+              <div class="col-md-6">
+                <h4>freeCodeCamp</h4>
+                <p>To supplement my education I have set out to learn web develoment skills. I have been using the tutorials from <a href="https://www.freeCodeCamp.com">freeCodeCamp</a> to guide me through the process. Thank you guys!</p>
+              </div>
+              <div class="col-md-6 blank-col">
+              </div>
+            </div>
+            <!--end of Education-->
+            <!--Personal-->
+            <h3>Personal</h3>
+            <div class="row personal">
+              <div class="col-xs-3">
+                <img src="images/soccerkai.jpg" class="img-circle img-responsive">
+              </div>
+              <div class="col-xs-9">
+                <h4>Soccer</h4>
+                <p>Soccer is my favorite sport. Not just because playing the game is such a rush, but all the things the game has given me. Some of the best friends are team mates, and the friendliest acquaintances are stranges on the pitch. Catch me on the field and join the pick-up game.</p>
+              </div>
+            </div>
+            <div class="row personal">
+              <div class="col-xs-9 text-right">
+                <h4>Fixed Gear</h4>
+                <p>Biking is a great way to stay fit and keep my carbon emissions down. Depicted to the left is my tatooed Specialized Langster. Please don't go and find me on strava because I always forget to track my rides. Bonus points if you see my on my uni. My legs are my engine; my bike is my car.</p>
+              </div>
+              <div class="col-xs-3">
+                <img src="images/bike.jpg" class="img-circle img-responsive">
+              </div>
+            </div>
+            <!--end of Personal-->
+          </div>
+          <!--end of about-->
+          <hr>
+          <!--Portfolio-->
+          <div class="portfolio">
+            <a name="portfolio"></a>
+            <h1>Portfolio</h1>
+            <!--row one of projects-->
+            <div class="row">
+              <div class="col-lg-6 project" id="codePen">
+                <h3>Code Pen</h3>
+                <p>Pens ranging from freeCodeCamp assignments to mini web games. <a href="https://codepen.io/koalakai/"><i class="fa fa-codepen"></i> | codepen.io</a></p>
+                <a href="https://codepen.io/koalakai/pen/NggqEg/"><img src="images/codePen1.png"class="img-responsive"></a>
+                <a href="https://codepen.io/koalakai/pen/qjGWOv/"><img src="images/codePen2.png"class="img-responsive"></a>
+                <a href="https://codepen.io/koalakai/pen/RgzrOd/"><img src="images/codePen3.png"class="img-responsive"></a>
+                <a href="https://codepen.io/koalakai/pen/bRgKqY/"><img src="images/codePen4.png"class="img-responsive"></a>
+                <a href="https://codepen.io/koalakai/pen/pwXOmb/"><img src="images/codePen5.png"class="img-responsive"></a>
+              </div>
+              <div class="col-lg-6 project">
+                <h3>Treeio</h3>
+                <p>This project is being made in hopes to facilitate the growth of a club I founded at Ohlone.<a href="https://github.com/kaikaikoala/treeio"><i class="fa fa-github"></i> | treeio repository</a></p>
+                <img src="images/treeio.jpg" class="img-responsive">
+              </div>
+            </div>
+            <!--row two of projects-->
+          </div>
+          <!--end of Portfolio-->
+          <hr>
+          <!--skills-->
+          <div class="skills">
+            <a name="skills"></a>
+            <h1>Skills</h1>
+            <div class="row">
+              <!--ui ux-->
+              <div class="col-md-4 uiux">
+                <h3>UI UX Development</h3>
+                <h4>HTML</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+                </div>
+                <h4>CSS</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%;"></div>
+                </div>
+                <h4>Bootstrap</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:65%;"></div>
+                </div>
+                <h4>Javascript/jQuery</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:75%;"></div>
+                </div>
+              </div>
+              <!--end of ui ux-->
+              <div class="col-md-4 ">
+                <h3>OOP Languages</h3>
+                <h4>C++/C</h4>
+                <h4>Java</h4>
+                <h4>Python</h4>
+                <h4>Javascript</h4>
+              </div>
+              <div class="col-md-4">
+                <h3>Interpersonal Skills</h3>
+                <h4>Team Work</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:95%;"></div>
+                </div>
+                <h4>Public Speaking</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+                </div>
+                <h4>Leadership</h4>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%;"></div>
+                </div>
+              </div>
 
-	<!--info-->
-	<div class="col-md-9 info jumbotron">
-		<div class="content center-text">
-		<center>
-		<h1>Raymond Akagi</h1>
-		<h3>Mechanical Engineer</h3>
 
-		<div class="break">
-		</div>
+            </div>
+            <!--end of row-->
+          </div>
+          <!--end of skills-->
+          <hr>
+          <!--experience-->
+          <div class="experience">
+            <a name="experience"></a>
+            <h1>Experience</h1>
+            <h3>./Computer Science Club</h3>
+            <p>Founder of Dot-Slash</p>
+            <p><a href="http://dotslashcs.club">dot-slash-cs.club website</a></p>
+            <h3>Tutor</h3>
+            <ul class="list-inline">
+              <li>2015-2017</li>
+              <li>Ohlone College</li>
+              <li>Title: Math, Physics, and CS tutor</li>
+            </ul>
+            <p>Effectively communicate concepts from pre-algebra to Calculus and E&M Physics.</p>
+          </div>
+          <!--end of experience-->
+          <hr>
+          <div class="contact">
+            <a name="contact"></a>
+            <div class="row">
+              <div class="col-sm-4">
+                <ul class="list-inline">
+                  <li>
+                    <a href="https://www.freecodecamp.com/koalakai"class="btn btn-lg btn-social-icon">
+                      <i class="fa fa-free-code-camp"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/kaishin.kawada"class="btn btn-lg btn-social-icon">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://codepen.io/koalakai/"class="btn btn-lg btn-social-icon">
+                      <i class="fa fa-codepen"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/philip-kawada-097969113"class="btn btn-lg btn-social-icon btn-linkedin">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/kaikaikoala"class="btn btn-lg btn-social-icon btn-github">
+                      <i class="fa fa-github"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:kaishinpk@gmail.com"class="btn btn-lg btn-social-icon">
+                      <i class="fa fa-envelope"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!--end of col4-->
+              <div class="col-sm-8">
+                <h1>Contact</h1>
+                <p>Feel free to contact me regarding this website, math questions, having your tennis racket strung or if you'd like a website built.</p>
+              </div>
+            </div>
+            <!--end of contact row-->
+          </div>
+          <!--end of contact-->
+        </div>
+        <!--end of col9-->
+      </div>
+      <!--end of row-->
+      <div class="footer">
+      </div>
 
-		
-		<ul class="list-inline">
-			<li><a href="https://www.facebook.com/raymond.akagi" class="btn btn-lg btn-social-icon btn-facebook"><span class="fa fa-facebook"></span></a></li>
-			<li><a href="https://www.linkedin.com/in/raymond-akagi-b6a2a4133/"class="btn btn-lg btn-social-icon btn-linkedin"><span class="fa fa-linkedin"></span></a></li>
-			<li><a href="https://plus.google.com/u/0/114876648246529627587"class="btn btn-lg btn-social-icon btn-google"><span class="fa fa-google"></span></a></li>
-		</ul>
-		</center>
-		</div>
-	</div>
-</div>
-
-<div class="row row2">
-	<div class="col-md-3" id="spacer2">
-	</div>
-	<div class="col-md-9 about">
-		<a name="about"></a>
-		<h1>About</h1>
-		<div class="personal">
-			<h3>Personal</h3>
-			<p>Ever since Mr. Fotrell's 5th period Honors Physics class I have seen <em>Free Body Diagrams</em> everywhere: when I'm pumping iron, curling balls on the soccer pitch, and even contemplating statics while staring at the coffee cup on my desk.</p> 
-		</div>
-		<!--personal end-->
-
-	<div class="row">
-		<div class="col-lg-6 education">
-			<h3>Education</h3>
-			<h5>Cal Poly Slo</h5>
-			<ul>
-				<li>Major: Mechanical Engineering | GPA: 3.7</li>
-				<li>Concentration: HVAC</li>
-				<li>Societies: Engineers Without Borders, Dean's List for Mechanical Engineering</li>
-			</ul>
-		</div>
-		<!--education end-->
-		<div class="societies col-lg-6">
-			<h3>Societies</h3>
-			<h5>Engineers Without Borders</h5>
-			<h5>Eagle Scout</h5>
-			<h5>Dean's List for Mechanical Engineering</h5>
-		</div>
-		<!--Societies end-->
-	</div>
-	<!--end of row-->
-
-<hr>
-</div>
+    </div>
+    <!--end of container-->
 
 
-<div class="row">
-	<div class="col-md-3">
-	</div>
-	<div class="col-md-9">
-		<a name="portfolio"></a>
-		<h1>Portfolio</h1>
-		<div class="row project">
-			<div class="col-lg-6">
-			<h3>Project 1</h3>
-			<p>This is a short little paragraph describing my project. It is very cool. Raymond send me a cool project and a picture of it.</p>
-			<img src="images/project1.png" class="img-responsive">
-			</div>
-			<div class="col-lg-6">
-			<h3>Project 2</h3>
-			<p>This is a short little paragraph describing my project. It is very cool. Raymond send me a cool project and a picture of it.</p>
-			<img src="images/project2.png" class="img-responsive">
-			</div>
-		</div>
-		<!--end of row -->
-	</div>
-</div>
-
-	<!--Dummy Row-->
-	<div class="row">
-	<div class="col-md-3">
-	</div>
-	<div class="col-md-9">
-	<hr>
-	<a name="skills"></a>
-		<h1>Skills</h1>
-	</div>
-	<!--end dummy-->
-
-<div class="row">
-	<div class="col-md-3">
-	</div>
-	<div class="col-md-3">
-		<div class="skills" id="skill1">
-			<h3>Microsoft Suite</h3>
-				<h5>Word</h5>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 95%; background-color: #a890a8;">
-					</div>
-				</div>
-				<h5>Excel</h5>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 80%; background-color: #a890a8;">
-					</div>
-				</div>
-				<h5>Power Point</h5>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: #a890a8;">
-					</div>
-				</div>
-		</div>
-	</div>
-	<div class="col-md-3" >
-		<div class="skills" id="skill2">
-			<h3>InterPersonal</h3>
-			<h5>Leadership</h5>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: #a890a8;">
-					</div>
-				</div>
-			<h5>Public Speaking</h5>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 90%; background-color: #a890a8;">
-					</div>
-				</div>
-
-		</div>
-	</div>
-	<div class="col-md-3" >
-		<div class="skills"id="skill3">
-			<h3>Technical</h3>
-				<h5>Solid Works</h5>
-				<p>Read and Create detailed drawings for parts in Solidworks</p>
-				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60"
-					aria-valuemin="0" aria-valuemax="100" style="width: 70%; background-color: #a890a8;">
-					</div>
-				</div>
-		</div>
-	</div>
-</div>
-
-<div class="row experince">
-	<div class="col-md-3">
-	</div>
-	<div class="col-md-9">
-		<a name="experience"></a>
-		<h1>Experience</h1>
-		<h3>Work</h3>
-		<h5>Soccer Referee</h5>
-		<p>Officiated youth soccer games for Castro Valley Soccer Club and had to make the correct decision under a lot of pressure.</p>
-		<h5>Summer Camp Counselor</h5>
-		<p>I was Counselor-in- Training for 3 summers at Wente Scout Reservation, a Boy Scout Camp. Taught climbing, shotgun and rifle, and nature related merit badges. Assisted	camp leadership in directing campers and general activities at camp.</p>
-		<h3>Volunteer</h3>
-		<h5>Stanton Community Garden</h5>
-		<h5>Castro Valley Sanitation District</h5>
-		<h3>Intern</h3>
-		<h5>Environmental Surveyor</h5>
-		<p>I sucked off Mark all summer. #sundaysoccer . #hebringsthegoalsandbibs . #starbucks </p>
-		<h5>Taiwan</h5>
-		<p>I went to taiwan mother fuckers</p>
-	</div>
-</div>
-
-<hr>
-<div class="row">
-<div class="col-md-3">
-</div>
-<div class="col-md-9">
-<div class="footer">
-	<center>
-	<h3>Raymond Akagi</h3>
-	<p>2475 Yaffe Dr. San Leandro, CA | (510)589-7731 | email: rakagi@calpoly.edu </p>
-	</center>
-</div>
-</div>
-<!--end of container-->
-</div>
-
-		</body>
+  </body>
 </html>
+
+
+

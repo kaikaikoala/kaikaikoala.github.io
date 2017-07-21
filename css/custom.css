@@ -1,151 +1,129 @@
 body{
-background-image: url("../images/about5.jpg") ;
-background-repeat: no-repeat ;
-background-color: #fff ;
 }
 
-.row1{
+/*
+	profile
+*/
+@media screen and ( max-width: 786px){
+	#profile-toggle button{
+		display: none;
+	}
+}
+#profile-toggle button{
+	display: inline ;
+	position: fixed ;
+	margin-top: 20px ;
+	z-index: 3;
+	background: none;
+	border: none;
+	/*
+				choice
+	*/
+	color: grey;
 }
 
-.profile{
-z-index: 3;
-background-color: #fff;
-text-align: center ;
-position: fixed ;
-width: 225px ;
+#profile-toggle button:hover{
+	/*
+				choice
+	*/
+	background-color: #fff;
+}
+
+#profile{
+z-index: 2;
+position: fixed;
+width: 225px;
 float: left ;
-height: 100vh;
-}
-
-.profile .content img{
-margin: auto ;
-height: 250px ;
-}
-
-.profile .content {
 margin-top: 20px ;
-} 
-
-.profile h3{
-color: #000 ;
+text-align: center;
+	/*
+				choice
+	*/
+background-color: #fff;
 }
 
-.profile p{
-color: #000;
+.header img{
+padding: auto;
+margin: auto;
 }
 
-.profile ul{
-list-style-type: none ;
+#profile .break{
+height: 50px;
 }
 
-.profile li{
-color: #a8a8c0 ;
+.navigation{
 }
 
+/*
+	jumbotron	
+*/
 
-#info_nav_break{
-height: 100px ;
-}
-
-.navigation .nav-pills a{
-color: #604860;
-background: #fff ;
-border-width: 1px ;
-border-color: #fff ;
-border-style: solid ;
-}
-
-.navigation .nav-pills a:hover{
-color: #604860;
-background: #fff ;
-border-color: #604860;
-border-width: 1px ;
-border-style: solid ;
-}
-
-#contactRay{
-border-radius: 300px ;
-background-color: #604860 ; 
-color: #fff;
-border-width: 5px ;
-border-color: #604860 ;
-} 
-
-#contactRay:hover{
-border-color: #604860 ;
-border-width: 5px ;
-background-color: #fff ; 
-color:#604860;
-border-radius: 300px ;
-}
-
-.info{
-background: none ;
-padding-top: 30% ;
+.jumbotron{
+z-index: 1;
 height: 100vh;
+background-image:url("../images/about3.jpg");
+background-position: center ;
+-webkit-background-size: cover;
+-moz-background-size: cover ;
+background-size: cover ;
+-o-background-size: cover ;
+background-repeat: no-repeat;
 }
 
-.row2{
-position: absolute ;
-top: 1100px ;
-}
-
-.about {
-background-color: #fff ;
-
-}
-
-
-.jumbotron {
-color: #fff ;
-text-shadow: 2px 2px 5px #786078 ;
-}
-
-.jumbotron ul{
-display: inline ;
+.jumbotron #jumbotron-content{
+	margin-top: 30%;
 }
 
 .jumbotron .break{
-height: 2px ;
-width: 80% ;
-margin: 0px 5px 20px 5px ;
-background-color: #fff;
+	height: 2px;
+	width: 80%;
+	margin: auto;
+	/*
+				choice
+	*/
+	background-color: #fff;
+}
+
+.jumbotron ul{
+	margin-top: 20px ;
 }
 
 .jumbotron .btn{
-background-color: #fff ;
-border-radius: 50% ;
-color: #786078 ;
-height: 50px ;
-width: 50px ;
+	border-radius: 50%;
+	padding: 2px;
+	/*
+				choice
+	*/
+	color: #fff;
+	background: #000 ;
 }
 
-h1{
-color: #604860 ;
+.jumbotron .btn:hover{
+	color: #000 ;
+	background: #fff;
 }
 
-h3{
-color: #786078 ;
+/*
+Portfolio
+*/
+.portfolio .project {
+	border-left: solid;
+	border-color: #000 ;
 }
 
-.project div{
-border-left: solid ;
-border-color: #604860 ;
+#codePen a{
+	margin: -2px ;
+}
+#codePen img{
+	display: inline ;
+	margin: 0px ;
+	width: 30% ;
 }
 
 
-.break{
-background-color: #604860 ;
-height: 5px ;
-}
-
+/*footer*/
 .footer{
-background-color: #604860 ;
-height: 100px ;
-top-margin: 200px ;
-border-radius: 5px ;
+	margin-top: 10px ;
+	height:100px;
 }
 
-h5{
-font-weight: bold ;
-}
