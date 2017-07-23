@@ -1,25 +1,27 @@
 body{
 }
 
+h1{
+	color: #604848;
+}
+h3{
+	color: #604848;
+}
 /*
 	profile
 */
-@media screen and ( max-width: 786px){
-	#profile-toggle button{
-		display: none;
-	}
-}
 #profile-toggle button{
 	display: inline ;
 	position: fixed ;
-	margin-top: 20px ;
+	margin-top: 5vh;
 	z-index: 3;
 	background: none;
 	border: none;
 	/*
 				choice
 	*/
-	color: grey;
+	color: #604848;
+	
 }
 
 #profile-toggle button:hover{
@@ -34,7 +36,7 @@ z-index: 2;
 position: fixed;
 width: 225px;
 float: left ;
-margin-top: 20px ;
+margin-top: 5vh;
 text-align: center;
 	/*
 				choice
@@ -42,18 +44,50 @@ text-align: center;
 background-color: #fff;
 }
 
+.header{
+	height: 50vh;
+}
 .header img{
 padding: auto;
 margin: auto;
 }
 
+.header #contact-btn{
+	border-color: #604848;
+	border-width: 2px;
+	border-radius: 0px ;
+	color: #604848;
+}
+.header #contact-btn:hover{
+	border-color: #fff;
+	background-color: #604848;
+	border-width: 2px;
+	border-radius: 0px ;
+	color: #fff;
+}
+
 #profile .break{
-height: 50px;
+height: 10vh;
 }
 
 .navigation{
+	height: 30vh;
 }
 
+.navigation li a{
+	color: #000;
+	border-bottom-width: 2px ;
+	border-bottom-color: #fff;
+	border-bottom-style: solid;
+}
+
+.navigation li a:hover{
+	color: #604848;
+	background-color: #fff ;
+	border-bottom-width: 2px ;
+	border-bottom-color: #604848;
+	border-bottom-style: solid;
+}
 /*
 	jumbotron	
 */
@@ -72,6 +106,20 @@ background-repeat: no-repeat;
 
 .jumbotron #jumbotron-content{
 	margin-top: 30%;
+
+	/*
+				choice
+	*/
+}
+
+.jumbotron #jumbotron-content .words{
+	background: linear-gradient( rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0));
+	color: #000;
+}
+.jumbotron #jumbotron-content .words h3{
+	color: #000;
+}
+.jumbotron #jumbotron-content #bottomhalf{
 }
 
 .jumbotron .break{
