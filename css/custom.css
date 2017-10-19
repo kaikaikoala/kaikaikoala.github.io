@@ -180,6 +180,7 @@ header li{
 	grid-gap: 20px ;
 	grid-template-columns: repeat( auto-fit , minmax( 300px , 500px ) ) ;
 }
+
 #portfolio .graphic img{
 	width: 100% ;
 }
@@ -187,6 +188,10 @@ header li{
 #codePen .graphic{
 	display: grid;
 	grid-template-columns: repeat( auto-fit , minmax( 150px ,auto ) ) ;
+}
+#webDev .graphic img{
+  width: 45% ;
+  display: inline;
 }
 
 /*skills*/
