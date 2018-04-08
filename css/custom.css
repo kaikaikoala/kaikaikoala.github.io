@@ -1,11 +1,12 @@
 footer{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 20px;
 }
 
 section{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 h1{
 	color: #604848;
@@ -71,6 +72,10 @@ header li{
 
 /*profile*/
 #profile{
+	display: none;
+}
+/*
+#profile{
 	width: 50% ;
 	margin: auto;
 	text-align: center ;
@@ -126,6 +131,7 @@ header li{
 	color: #604848;
 	border-bottom-color: #604848 ;
 }
+*/
 
 /*About*/
 #about #soccer{
@@ -285,6 +291,7 @@ header li{
 }
 
 @media ( min-width: 800px ) {
+	/*
 	body{
 		display: grid;
 		grid-row-gap: 50px ;
@@ -298,9 +305,10 @@ header li{
 		". content5"
 		;
 	}
+	*/
 	#profile{
 		width: 225px ;
-		position: fixed ;
+		display: none;
 		height: 80vh ;
 		margin-top: 10vh ;
 		margin-left: 20px ;
@@ -314,16 +322,20 @@ header li{
 	}
 	header{
 		grid-area: header;
+		/*
 		display: grid;
 		grid-template-columns: 250px  auto ;
 		grid-template-areas:
 		". content1"
 		;
+		*/
 	}
 
+/*
 	header .content{
 		grid-area: content1;
 	}
+	*/
 
 	#about{
 		grid-area: content1 ;
