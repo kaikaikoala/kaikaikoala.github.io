@@ -176,6 +176,26 @@ header li{
 	width: 90%;
 }
 
+#about #japan{
+	display: grid;
+	width: 100%;
+	grid-gap: 20px;
+	align-content: center ;
+	grid-template-columns: 1fr 2fr ;
+	grid-template-areas: 
+		"graphic content"
+		;
+}
+#japan .content{
+	grid-area: content;
+	text-align: left ;
+}
+#japan img{
+	grid-area: graphic;
+	border-radius: 50% ;
+	width: 90%;
+}
+
 /*portfolio*/
 #portfolio .graphic{
 	width: 100% ;
