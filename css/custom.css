@@ -281,7 +281,6 @@ header .content{
 		"content2"
 		"content3"
 		"content4"
-		"content5"
 		;
 	}
 
@@ -297,14 +296,11 @@ header .content{
 	#about{
 		grid-area: content2 ;
 	}
-	#skills{
+	#portfolio{
 		grid-area: content3 ;
 	}
-	#portfolio{
-		grid-area: content4 ;
-	}
 	#contact{
-		grid-area: content5 ;
+		grid-area: content4 ;
 	}
 }
 
@@ -318,41 +314,11 @@ header .content{
 		"content2"
 		"content3"
 		"content4"
-		"content5"
 		;
-	}
-	*/
-	#profile{
-		width: 225px ;
-		display: none;
-		height: 80vh ;
-		margin-top: 10vh ;
-		margin-left: 20px ;
-		padding: 0px ;
-	}
-	#profile img{
-		width: 100%;
-	}
-	#profile .content{
-		width: 100%;
 	}
 	header{
 		grid-area: header;
-		/*
-		display: grid;
-		grid-template-columns: 250px  auto ;
-		grid-template-areas:
-		". content1"
-		;
-		*/
 	}
-
-/*
-	header .content{
-		grid-area: content1;
-	}
-	*/
-
 	#about{
 		grid-area: content2 ;
 	}
@@ -363,11 +329,7 @@ header .content{
 		grid-template-columns: repeat( auto-fit , minmax( 400px , auto ) ) ;
 	}
 	#portfolio{
-		grid-area: content4 ;
-	}
-	#skills{
 		grid-area: content3 ;
-
 	}
 	#experience > .content{
 		display: grid ;
@@ -378,6 +340,6 @@ header .content{
 		grid-area: content1 ;
 	}
 	#contact{
-		grid-area: content5 ;
+		grid-area: content4 ;
 	}
 }
