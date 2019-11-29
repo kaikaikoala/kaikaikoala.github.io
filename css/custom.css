@@ -32,7 +32,7 @@ h3{
 
 header{
 	height: 100vh;
-	background-image: url("../images/about3.jpg");
+	background-image: url("../images/goldenGate.jpg");
 	background-position: center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover ;
@@ -53,13 +53,6 @@ header h3{
 	color: #333;
 }
 
-header .break{
-	margin-top: 10px;
-	width: 80%;
-	height: 2px;
-	margin: auto ;
-	background-color: #fff ;
-}
 header ul{
 	margin-top: 30px;
 	padding-left: 0px ;
@@ -68,6 +61,11 @@ header ul{
 
 header li{
   display: inline-block ;
+}
+
+header .content{
+  background-color: #fff6;
+  padding: 5%;
 }
 
 /*profile*/
@@ -176,7 +174,7 @@ header li{
 	width: 90%;
 }
 
-#about #japan{
+#about #bayArea{
 	display: grid;
 	width: 100%;
 	grid-gap: 20px;
@@ -186,11 +184,11 @@ header li{
 		"graphic content"
 		;
 }
-#japan .content{
+#bayArea .content{
 	grid-area: content;
 	text-align: left ;
 }
-#japan img{
+#bayArea img{
 	grid-area: graphic;
 	border-radius: 50% ;
 	width: 90%;
@@ -293,16 +291,16 @@ header li{
 	header{
 		grid-area: header;
 	}
-	#about{
+	#experience{
 		grid-area: content1 ;
 	}
-	#portfolio{
+	#about{
 		grid-area: content2 ;
 	}
 	#skills{
 		grid-area: content3 ;
 	}
-	#experience{
+	#portfolio{
 		grid-area: content4 ;
 	}
 	#contact{
@@ -358,7 +356,7 @@ header li{
 	*/
 
 	#about{
-		grid-area: content1 ;
+		grid-area: content2 ;
 	}
 
 	#about .content{
@@ -367,7 +365,7 @@ header li{
 		grid-template-columns: repeat( auto-fit , minmax( 400px , auto ) ) ;
 	}
 	#portfolio{
-		grid-area: content2 ;
+		grid-area: content4 ;
 	}
 	#skills{
 		grid-area: content3 ;
@@ -379,7 +377,7 @@ header li{
 		grid-template-columns: repeat( 2 , 1fr ) ;
 	}
 	#experience{
-		grid-area: content4 ;
+		grid-area: content1 ;
 	}
 	#contact{
 		grid-area: content5 ;
