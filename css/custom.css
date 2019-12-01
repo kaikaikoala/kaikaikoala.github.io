@@ -144,13 +144,17 @@ header .content{
 }
 
 #soccer .content{
+  display: inline;
 	grid-area: content;
 	text-align: left ;
+  vertical-align: middle;
 }
 #soccer img{
+  display: inline;
 	grid-area: graphic;
 	border-radius: 50% ;
 	width: 90%;
+  vertical-align: middle;
 }
 
 
