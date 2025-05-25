@@ -5,14 +5,32 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import logo from './logo.svg';
 import nyc_skyline_afternoon from './assets/nyc_skyline_afternoon.jpg';
+import nyc_skyline_night from './assets/nyc_skyline_night.jpg';
 import './App.css';
+
+const day = {
+  time: 'day',
+  backgroundImage: nyc_skyline_afternoon,
+  nameTextColor: 'black',
+}
+const night = {
+  time: 'night',
+  backgroundImage: nyc_skyline_night,
+  nameTextColor: 'white',
+}
+
+function getTimeOfDay() {
+  const hour = new Date().getHours();
+  if (hour >= 6 && hour < 18) return day;
+  return night;
+};
 
 function Header() {
   return (
     <Box 
        component="header"
        sx={{
-        backgroundImage: `url(${nyc_skyline_afternoon})`,
+        backgroundImage: `url(${getTimeOfDay().backgroundImage})`,
         backgroundSize: 'cover',         // scales image to fill container
         backgroundPosition: 'center',    // centers the image
         backgroundRepeat: 'no-repeat',   // avoids tiling
@@ -27,7 +45,9 @@ function Header() {
         alignItems: 'center',      // vertical center
       }}>
         <div>
-          <Typography variant="h1" component="h1" align="center">
+          <Typography
+             variant="h1" component="h1" align="center"
+             color={getTimeOfDay().nameTextColor}>
             Kai Kawada
           </Typography>
           <Stack
