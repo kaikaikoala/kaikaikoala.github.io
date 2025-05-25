@@ -9,7 +9,9 @@ import './App.css';
 
 function Header() {
   return (
-    <Box sx={{
+    <Box 
+       component="header"
+       sx={{
         backgroundImage: `url(${nyc_skyline_afternoon})`,
         backgroundSize: 'cover',         // scales image to fill container
         backgroundPosition: 'center',    // centers the image
@@ -24,7 +26,7 @@ function Header() {
         justifyContent: 'center',  // horizontal center
         alignItems: 'center',      // vertical center
       }}>
-        <header>
+        <div>
           <Typography variant="h1" component="h1" align="center">
             Kai Kawada
           </Typography>
@@ -56,7 +58,7 @@ function Header() {
               clickable
               />
           </Stack>
-        </header>
+        </div>
       </Container>
     </Box>
   );

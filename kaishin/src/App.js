@@ -1,14 +1,13 @@
 import Header from './Header.js';
 import SectionSwe from './SectionSwe.js';
+import SectionTennis from './SectionTennis.jsx';
 
 function App() {
   return (
     <main>
       <Header/>
       <SectionSwe/>
-      <section id="SectionTennis">
-        <h2>Tennis</h2>
-      </section>
+      <SectionTennis/>
     </main>
     );
 }
