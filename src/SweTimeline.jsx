@@ -1,7 +1,9 @@
 import {
   Container,
   Typography,
+  useMediaQuery,
 } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 import {
   Timeline,
   TimelineItem,
@@ -9,17 +11,32 @@ import {
   TimelineConnector,
   TimelineContent,
   TimelineDot,
-  TimelineOppositeContent,
 } from '@mui/lab';
+import TimelineOppositeContent, {
+  timelineOppositeContentClasses,
+} from '@mui/lab/TimelineOppositeContent';
 import CodepenAvatars from './CodepenAvatars.jsx';
 
 function SweTimeline() {
+  const theme = useTheme();
+  const timelinePosition = useMediaQuery(theme.breakpoints.up('md')) ? "alternate":"right";
+  const timelineSx = useMediaQuery(theme.breakpoints.up('md'))
+  ? { }
+  : { 
+        [`& .${timelineOppositeContentClasses.root}`]: {
+          flex: 0.2,
+        },
+	};
+
   return (
     <div>
     <Typography variant="h3" component="h3">
     Timeline
     </Typography>
-    <Timeline position="alternate">
+    <Timeline
+    	position={timelinePosition}
+	sx={timelineSx}
+	>
     <TimelineItem>
     <TimelineOppositeContent color="text.secondary">
     Present

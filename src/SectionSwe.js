@@ -17,7 +17,7 @@ function SectionSwe() {
             Software engineer
           </Typography>
           <Typography variant="body1" component="p">
-            I have been a software engineer at <strong>Google since 2019</strong>. I have primarily been working in <strong>payments</strong> using <strong>Java</strong>. But in college and my early career I did <strong>web dev</strong>. As a swe I value <strong>effective communication</strong> in both: project deliverables to my cross functional teammates and code quality for my fellow engineers. Ultimately, I want a <strong>great product</strong> for the user, but before that I am a <strong>good person</strong> to the people I work with.
+            I have been a software engineer at <strong>Google since 2019</strong>. I have primarily been working in <strong>payments</strong> using <strong>Java</strong>. But in college and my early career I did <strong>web dev</strong>. As a swe I value <strong>effective communication</strong> in both: project deliverables to my cross functional teammates and code quality for my fellow engineers. Ultimately, I want a <strong>great product</strong> for the user, but before that I want to be a <strong>good person</strong> to work with.
           </Typography>
           </Box>
           <Stack
