@@ -39,7 +39,7 @@ function SweTimeline() {
 	>
     <TimelineItem>
     <TimelineOppositeContent color="text.secondary">
-    Present
+    2025
     </TimelineOppositeContent>
     <TimelineSeparator>
     <TimelineDot color="primary" />

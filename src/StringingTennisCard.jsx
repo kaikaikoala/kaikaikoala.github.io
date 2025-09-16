@@ -18,13 +18,13 @@ export default function StringingTennisCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          Racket stringing
+          Stringing rackets
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          I enjoy stringing rackets and figuring out the right setup for each player.
-        </Typography>
+          I enjoy stringing rackets and otherwise geeking out on gear.
+	</Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Dialing in the perfect tension and selecting the best string type: I enjoy tailoring the racket to your game.
+          Dialing in the perfect string/tension is another tennis challenge I enjoy.
         </Typography>
       </CardContent>
       <CardActions>

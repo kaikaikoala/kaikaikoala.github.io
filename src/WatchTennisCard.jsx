@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function UtrTennisCard() {
+export default function WatchTennisCard() {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -13,21 +13,22 @@ export default function UtrTennisCard() {
             objectFit: 'cover',
             height: 140
         }}
-        image="/images/tennis-backhand.png"
-        title="Find me on UTR"
+        image="/images/usopen.jpg"
+        title="Ashe"
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          Playing tennis
+	  Watching matches
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          I love playing tennis! Anything from mindless banging through the middle, dingles, or UTR/club matches.        </Typography>
+	  One of the best NYC perks has to be proximity to NTC and the US open.
+        </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-        Every ball counts. Let’s raise the level together.
+	  I will be at fan week every year.
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" href="https://app.utrsports.net/profiles/4207026">Utr profile</Button>
+        <Button size="small" disabled>Photo album</Button>
       </CardActions>
     </Card>
   );
