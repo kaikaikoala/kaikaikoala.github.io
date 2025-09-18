@@ -1,6 +1,7 @@
 import Header from './Header.js';
 import SectionSwe from './SectionSwe.js';
 import SectionTennis from './SectionTennis.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <SectionSwe/>
       <SectionTennis/>
+      <Footer/>
     </main>
     );
 }

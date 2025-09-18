@@ -21,10 +21,11 @@ export default function StringingTennisCard() {
           Stringing rackets
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          I enjoy stringing rackets and otherwise geeking out on gear.
-	</Typography>
+          I enjoy stringing rackets and otherwise geeking out on gear. When I was a kid I strung for money to keep strings in my own racket.
+          Now I still enjoy dialing in the perfect string/tension.
+	      </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Dialing in the perfect string/tension is another tennis challenge I enjoy.
+          Email me for racket stringing inquiries.
         </Typography>
       </CardContent>
       <CardActions>

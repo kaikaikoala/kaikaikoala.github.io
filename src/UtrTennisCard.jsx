@@ -18,12 +18,13 @@ export default function UtrTennisCard() {
       />
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          Playing tennis
+          Play
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          I love playing tennis! Anything from mindless banging through the middle, dingles, or UTR/club matches.        </Typography>
+          I love playing tennis! Anything from mindless banging through the middle, dingles, or solo serve practice. But I also want to make sure I'm improving.
+        </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-        Every ball counts. Let’s raise the level together.
+          Let's do a UTR challenge match.
         </Typography>
       </CardContent>
       <CardActions>
