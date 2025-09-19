@@ -14,13 +14,27 @@ function SectionBlog() {
   return (
     <Container id="SectionBlog" component="section" sx={{mt:2}}>
       <Typography variant="h2">Blog</Typography>
-      <Masonry columns={3} spacing={2}>
+      <Masonry columns={3} spacing={0}>
         <Box
         component={RouterLink} to="/firsthomeespresso">
           <img 
             src="/images/home-espresso.jpg"
             loading="lazy"
             alt="First home espresso setup"
+            style={{
+                borderBottomLeftRadius: 4,
+                borderBottomRightRadius: 4,
+                display: 'block',
+                width: '100%',
+              }}
+          />
+        </Box>
+        <Box
+        component={RouterLink} to="/hunterspoint">
+          <img 
+            src="/images/sake.jpg"
+            loading="lazy"
+            alt="Hunters point"
             style={{
                 borderBottomLeftRadius: 4,
                 borderBottomRightRadius: 4,

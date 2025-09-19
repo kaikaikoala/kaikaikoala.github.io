@@ -53,7 +53,7 @@ export default function MyFooter() {
         </Link>
       </Stack>
       <Typography variant="body2" color="text.secondary">
-        © 2025 Kai. All Rights Reserved.
+        © 2025 Philip Kaishin Kawada. All Rights Reserved.
       </Typography>
     </Container>
     </Box>
