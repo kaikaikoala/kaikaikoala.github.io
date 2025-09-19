@@ -1,16 +1,13 @@
-import Header from './Header.js';
-import SectionSwe from './SectionSwe.js';
-import SectionTennis from './SectionTennis.jsx';
-import Footer from './Footer.jsx';
+import Home from './Home.jsx';
+import { Routes, Route } from 'react-router-dom';
+import FirstHomeEspresso from './FirstHomeEspresso.jsx';
 
 function App() {
   return (
-    <main>
-      <Header/>
-      <SectionSwe/>
-      <SectionTennis/>
-      <Footer/>
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/firsthomeespresso" element={<FirstHomeEspresso />}/>
+    </Routes>
     );
 }
 

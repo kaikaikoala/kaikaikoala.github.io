@@ -24,7 +24,7 @@ export default function WatchTennisCard() {
           When I was a kid I cracked a racket trying to practice in front of my bedroom mirror. Now I can just record and watch myself. I also want to crowd source some advice!
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-          Comment your tips
+          Comment your tips.
         </Typography>
       </CardContent>
       <CardActions>
