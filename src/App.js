@@ -1,5 +1,5 @@
 import Home from './Home.jsx';
-import { Routes, Route } from 'react-router-dom';
+import { createHashRouter, RouterProvider, Routes, Route } from 'react-router-dom';
 import FirstHomeEspresso from './FirstHomeEspresso.jsx';
 
 function App() {

@@ -6,6 +6,9 @@ import Typography from '@mui/material/Typography';
 import logo from './logo.svg';
 import nyc_skyline_afternoon from './assets/nyc_skyline_afternoon.jpg';
 import nyc_skyline_night from './assets/nyc_skyline_night.jpg';
+import {
+  Link as RouterLink,
+}from 'react-router-dom';
 import './App.css';
 
 const day = {
@@ -63,9 +66,9 @@ function Header() {
                   color: theme.palette.text.primary, // ensure readable text color
                 })}
               label="Software engineer"
-              component="a"
+              component={RouterLink}
               clickable
-              href="#SectionSwe"
+              to="/#SectionSwe"
                />
             <Chip
               sx={(theme) => ({
@@ -73,8 +76,18 @@ function Header() {
                   color: theme.palette.text.primary, // ensure readable text color
                 })}
               label="Tennis enthusiast"
-              component="a"
-              href="#SectionTennis"
+              component={RouterLink}
+              to="#SectionTennis"
+              clickable
+              />
+            <Chip
+              sx={(theme) => ({
+                  backgroundColor: theme.palette.background.paper,
+                  color: theme.palette.text.primary, // ensure readable text color
+                })}
+              label="Content creator"
+              component={RouterLink}
+              to="#SectionBlog"
               clickable
               />
           </Stack>

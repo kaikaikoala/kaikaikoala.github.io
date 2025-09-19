@@ -11,11 +11,13 @@ import {
   ListItemText,
   Stack,
 } from '@mui/material';
+import useEffect from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Masonry from '@mui/lab/Masonry';
 import Footer from './Footer.jsx';
 
 function FirstHomeEspresso() {
+  window.scrollTo(0, 0);
   return (
     <main>
       <AppBar position="static">

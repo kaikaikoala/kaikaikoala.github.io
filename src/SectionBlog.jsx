@@ -1,6 +1,9 @@
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import {
+  Link as RouterLink,
+}from 'react-router-dom';
 import Masonry from '@mui/lab/Masonry';
 import Stack from '@mui/material/Stack';
 import UtrTennisCard from './UtrTennisCard.jsx';
@@ -9,11 +12,11 @@ import WatchTennisCard from './WatchTennisCard.jsx';
 
 function SectionBlog() {
   return (
-    <Container id="SectionTennis" component="section" sx={{mt:2}}>
+    <Container id="SectionBlog" component="section" sx={{mt:2}}>
       <Typography variant="h2">Blog</Typography>
       <Masonry columns={3} spacing={2}>
         <Box
-        component="a" href="/firsthomeespresso">
+        component={RouterLink} to="/firsthomeespresso">
           <img 
             src="/images/home-espresso.jpg"
             loading="lazy"
