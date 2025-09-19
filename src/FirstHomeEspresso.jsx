@@ -1,7 +1,4 @@
 import {
-  AppBar,
-  Toolbar,
-  IconButton,
   Box,
   Paper,
   Container,
@@ -15,16 +12,13 @@ import useEffect from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Masonry from '@mui/lab/Masonry';
 import Footer from './Footer.jsx';
+import KaiToolBar from './KaiToolBar.jsx';
 
 function FirstHomeEspresso() {
   window.scrollTo(0, 0);
   return (
     <main>
-      <AppBar position="static">
-        <Toolbar>
-          <Link href="/"><Typography variant="h6" color="primary.contrastText">Kai Kawada</Typography></Link>
-        </Toolbar>
-      </AppBar>
+      <KaiToolBar/>
       <Container sx={{mt:2}}>
         <Typography variant="h3">
           First home espresso setup: DF64/Bambino Plus
