@@ -56,7 +56,7 @@ function StartHomeBar() {
           <Typography variant="h4" component="h2" gutterBottom>
             Bar inventory
           </Typography>
-          <Stack direction="row" spacing={2}>
+          <Stack direction={{xs:'column', md:"row"}} spacing={2}>
             <Box sx={{mt:2, flex:1}}>
               <img 
                 src={inventoryImage.src}
@@ -70,9 +70,8 @@ function StartHomeBar() {
             </Box>
             <Box sx={{flex:3}}>
               <Typography variant="body1" paragraph>
-                I was very happy maintaining this bar setup for quite a while. First it was everything I needed for 2 very different cocktails. The whiskey is great for steak alla Ron Swanson, and I had a handle of Tito’s to appease the degenerates before a night out.
+                I was very happy maintaining this bar setup for quite a while. It was everything I needed for 2 very different cocktails. The whiskey is great for steak alla Ron Swanson, and I had a handle of Tito’s to appease the degenerates before a night out.
               </Typography>
-              <Stack sx={{alignItems:'center', justifyContent: 'center',}} direction="row">
                 <Typography sx={{flex:1}} variant="body1" paragraph component="ul">
                   {/* List of bar inventory items */}
                   <li>High West Double Rye</li>
@@ -85,12 +84,11 @@ function StartHomeBar() {
                   <li>Martini glass</li>
                   <li>Tumbler</li>
                 </Typography>
-              </Stack>
             </Box>
           </Stack>
         </Box>
 
-        <Stack sx={{mt:2}} spacing={2} direction="row">
+        <Stack sx={{mt:2}} spacing={2} direction={{xs:'column', md:"row"}} >
           {/* Manhattan section */}
           <Paper sx={{flex:1}}>
             <Box sx={{m:2}}>
@@ -165,7 +163,7 @@ function StartHomeBar() {
           <Typography variant="h4" component="h2" gutterBottom>
             Bar Pisellino
               </Typography>
-          <Stack direction="row" spacing={2}>
+          <Stack  direction={{xs:'column', md:"row"}}spacing={2}>
             <Box sx={{mt:2, flex:1}}>
               <img 
                 src={pisellinoImage.src}
