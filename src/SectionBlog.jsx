@@ -51,6 +51,18 @@ function SectionBlog() {
             }}
           />
         </Box>
+        <Box
+          component="a" href="https://www.leagueofgraphs.com/summoner/na/kaikaikoala-NA1">
+          <img 
+            src="/images/poppy_umbral_large_3.jpg"
+            loading="lazy"
+            alt="cocktail being made at home"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
+          />
+        </Box>
       </Masonry>
     </Container>
   );
