@@ -40,7 +40,7 @@ function StartHomeBar() {
           />
         </Box>
         <Box sx={{mt:2}}>
-          <Typography variant="body1">
+          <Typography variant="body1" paragraph>
             My first weekend in NYC felt like it lasted 6 months. I missed my flight back home and fell into some apartment sitting for people. I also fell into a marriage. It was a west village fever dream fueled by cocktails and omakase.
           </Typography>
           <Typography variant="body1" paragraph>
