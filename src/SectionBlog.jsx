@@ -16,36 +16,44 @@ function SectionBlog() {
       <Typography variant="h2">Blog</Typography>
       <Masonry columns={3} spacing={0}>
         <Box
-        component={RouterLink} to="/firsthomeespresso">
+          component={RouterLink} to="/firsthomeespresso">
           <img 
             src="/images/home-espresso.jpg"
             loading="lazy"
             alt="First home espresso setup"
             style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: 'block',
-                width: '100%',
-              }}
+              display: 'block',
+              width: '100%',
+            }}
           />
         </Box>
         <Box
-        component={RouterLink} to="/hunterspoint">
+          component={RouterLink} to="/hunterspoint">
           <img 
             src="/images/sake.jpg"
             loading="lazy"
             alt="Hunters point"
             style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: 'block',
-                width: '100%',
-              }}
+              display: 'block',
+              width: '100%',
+            }}
+          />
+        </Box>
+        <Box
+          component={RouterLink} to="/startinghomebar">
+          <img 
+            src="/images/blog/starthomebar/hero.jpg"
+            loading="lazy"
+            alt="cocktail being made at home"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
           />
         </Box>
       </Masonry>
     </Container>
-    );
+  );
 }
 
 export default SectionBlog;
