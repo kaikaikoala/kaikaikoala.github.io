@@ -3,6 +3,7 @@ import { createHashRouter, RouterProvider, Routes, Route } from 'react-router-do
 import FirstHomeEspresso from './FirstHomeEspresso.jsx';
 import HuntersPoint from './blogpages/HuntersPoint.jsx';
 import StartHomeBar from './blogpages/StartHomeBar.jsx';
+import Sozai from './blogpages/Sozai.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/firsthomeespresso" element={<FirstHomeEspresso />}/>
       <Route path="/hunterspoint" element={<HuntersPoint />}/>
       <Route path="/startinghomebar" element={<StartHomeBar />}/>
+      <Route path="/sozai" element={<Sozai />}/>
     </Routes>
     );
 }

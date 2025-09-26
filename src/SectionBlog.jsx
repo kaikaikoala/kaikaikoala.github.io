@@ -62,6 +62,18 @@ function SectionBlog() {
               width: '100%',
             }}
           />
+        <Box
+          component={RouterLink} to="/sozai">
+          <img 
+            src="/images/blog/sozai/hero.jpg"
+            loading="lazy"
+            alt="Sozai ramen and Izakaya"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
+          />
+        </Box>
         </Box>
       </Masonry>
     </Container>
