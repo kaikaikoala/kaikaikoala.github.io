@@ -10,18 +10,18 @@ function SectionTennis() {
     <Container id="SectionTennis" component="section">
       <Typography variant="h2">Tennis</Typography>
       <Typography variant="body1" component="p">
-      	I love tennis! I love playing tennis. I love watching tennis. I love stringing tennis rackets. I actually grew up playing mostly soccer, but now tennis is my favorite sport.
+        I love tennis! I love playing tennis. I love watching tennis. I love stringing tennis rackets. I actually grew up playing mostly soccer, but now tennis is my favorite sport.
       </Typography>
       <Stack
-	    sx={{rowGap: 2, columnGap: 2, marginTop: 2}}
-	    flexWrap='wrap'
-            direction={{ xs: "column", md: "row"}}>
+        sx={{rowGap: 2, columnGap: 2, marginTop: 2}}
+        flexWrap='wrap'
+        direction={{ xs: "column", md: "row"}}>
         <UtrTennisCard/>
         <StringingTennisCard/>
-	<WatchTennisCard/>
+        <WatchTennisCard/>
       </Stack>
     </Container>
-    );
+  );
 }
 
 export default SectionTennis;
