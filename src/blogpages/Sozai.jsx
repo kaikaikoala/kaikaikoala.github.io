@@ -58,8 +58,9 @@ export default function Sozai() {
         </Box>
         {/* Food section */} 
         <Box sx={{mt:2}}>
-          <Typography variant="h4">Food</Typography>
-          <Typography variant="body1" paragraph>
+          <Typography paragraph variant="h4">Food</Typography>
+          <Link component="Typography" to="https://www.sozainyc.com/pdf/food.pdf">Menu</Link>
+          <Typography variant="body1" paragraph sx={{mt:2}}>
             The food here is super solid. The dishes are on the smaller end (true-to-size Izakaya) which is good for sharing and tasting many different things inbetween your conversation and drinks.
           </Typography>
           <Stack
@@ -205,6 +206,9 @@ export default function Sozai() {
         {/* Drinks section */} 
         <Box sx={{mt:2}}>
           <Typography variant="h4">Drinks</Typography>
+          <Box sx={{mt:2, mb:2}}>
+            <Link component="Typography" to="https://www.sozainyc.com/pdf/drink.pdf">Menu</Link>
+          </Box>
             <Box>
               <img 
                 src={barImage.src}

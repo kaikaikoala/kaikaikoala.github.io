@@ -4,6 +4,7 @@ import FirstHomeEspresso from './FirstHomeEspresso.jsx';
 import HuntersPoint from './blogpages/HuntersPoint.jsx';
 import StartHomeBar from './blogpages/StartHomeBar.jsx';
 import Sozai from './blogpages/Sozai.jsx';
+import Menu from './blogpages/Menu.jsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/hunterspoint" element={<HuntersPoint />}/>
       <Route path="/startinghomebar" element={<StartHomeBar />}/>
       <Route path="/sozai" element={<Sozai />}/>
+      <Route path="/menu" element={<Menu/>}/>
     </Routes>
     );
 }
