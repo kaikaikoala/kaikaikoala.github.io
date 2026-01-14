@@ -62,6 +62,7 @@ function SectionBlog() {
               width: '100%',
             }}
           />
+        </Box>
         <Box
           component={RouterLink} to="/sozai">
           <img 
@@ -74,6 +75,17 @@ function SectionBlog() {
             }}
           />
         </Box>
+        <Box
+          component={RouterLink} to="/montrio">
+          <img 
+            src="/images/blog/montrio/hero.jpg"
+            loading="lazy"
+            alt="Montrio New American Restaurant"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
+          />
         </Box>
       </Masonry>
     </Container>
