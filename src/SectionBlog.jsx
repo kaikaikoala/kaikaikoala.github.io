@@ -56,7 +56,19 @@ function SectionBlog() {
           <img 
             src="/images/poppy_umbral_large_3.jpg"
             loading="lazy"
-            alt="cocktail being made at home"
+            alt="poppy league of legends champion"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
+          />
+        </Box>
+        <Box
+          component="a" href="https://photos.app.goo.gl/L36z5U7AsWFD9dDP7">
+          <img 
+            src="/images/blog/walnut.jpg"
+            loading="lazy"
+            alt="Wenwan Walnut"
             style={{
               display: 'block',
               width: '100%',
@@ -81,6 +93,18 @@ function SectionBlog() {
             src="/images/blog/montrio/hero.jpg"
             loading="lazy"
             alt="Montrio New American Restaurant"
+            style={{
+              display: 'block',
+              width: '100%',
+            }}
+          />
+        </Box>
+        <Box
+          component="a" href="https://www.instagram.com/reel/DTh6UB5CsOp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+          <img 
+            src="/images/blog/thaivillanyc.jpg"
+            loading="lazy"
+            alt="Thai curry"
             style={{
               display: 'block',
               width: '100%',
