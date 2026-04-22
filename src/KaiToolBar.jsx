@@ -11,7 +11,7 @@ import {
 
 function KaiToolBar() {
   return (
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: '#6b7280' }}>
         <Toolbar>
           <Button color="inherit" variant="text" component={RouterLink} to="/">
             Kai Kawada
