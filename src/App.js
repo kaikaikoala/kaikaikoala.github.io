@@ -7,6 +7,7 @@ import Sozai from './blogpages/Sozai.jsx';
 import Montrio from './blogpages/Montrio.jsx';
 import EspressoMartini from './blogpages/EspressoMartini.jsx';
 import Menu from './blogpages/Menu.jsx';
+import CocktailCart from './cocktailcart/CocktailCart.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/montrio" element={<Montrio />}/>
       <Route path="/espressomartini" element={<EspressoMartini />}/>
       <Route path="/menu" element={<Menu/>}/>
+      <Route path="/cocktail-cart" element={<CocktailCart/>}/>
     </Routes>
     );
 }

@@ -2,10 +2,11 @@
 	{
 		"name":"Litchi Martini",
 		"ingredients": [
-			"Vodka",
-			"Canned Litchi",
-			"Lemon",
-			"Simple Syrup"
+			{ "ingredient": "Vodka", "type": "liquor" },
+			{ "ingredient": "Simple Syrup", "type": "mixer" },
+			{ "ingredient": "Litchi Syrup", "type": "mixer" },
+			{ "ingredient": "Lemon", "type": "mixer" },
+			{ "ingredient": "Canned Litchi", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "4 parts", "ingredient": "Vodka"},
@@ -24,12 +25,12 @@
 	{
 		"name":"Manhattan",
 		"ingredients": [
-			"Rye Whiskey",
-			"Sweet Vermouth",
-			"Aromatic Bitters",
-			"Orange Bitters",
-			"Luxardo Cherries",
-			"Orange Peel"
+			{ "ingredient": "Rye Whiskey", "type": "liquor" },
+			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
+			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
+			{ "ingredient": "Orange Bitters", "type": "liquor" },
+			{ "ingredient": "Luxardo Cherries", "type": "garnish" },
+			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 parts", "ingredient": "Rye Whiskey"},
@@ -49,13 +50,13 @@
 	{
 		"name":"Martini",
 		"ingredients": [
-			"Vodka",
-			"Gin",
-			"Dry Vermouth",
-			"Olive Juice",
-			"Water",
-			"Olive",
-			"Lemon Peel"
+			{ "ingredient": "Vodka", "type": "liquor" },
+			{ "ingredient": "Gin", "type": "liquor" },
+			{ "ingredient": "Dry Vermouth", "type": "liquor" },
+			{ "ingredient": "Olive Juice", "type": "mixer" },
+			{ "ingredient": "Water", "type": "mixer" },
+			{ "ingredient": "Olive", "type": "garnish" },
+			{ "ingredient": "Lemon Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "3 parts", "ingredient": "Vodka"},
@@ -77,10 +78,10 @@
 	{
 		"name":"Old Fashioned",
 		"ingredients": [
-			"Bourbon Whiskey",
-			"Simple Syrup",
-			"Aromatic Bitters",
-			"Orange Peel"
+			{ "ingredient": "Bourbon Whiskey", "type": "liquor" },
+			{ "ingredient": "Simple Syrup", "type": "mixer" },
+			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
+			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 parts", "ingredient": "Bourbon Whiskey"},
@@ -97,10 +98,10 @@
 	{
 		"name":"Boulevardier",
 		"ingredients": [
-			"Whiskey",
-			"Sweet Vermouth",
-			"Aperol",
-			"Citrus Peel"
+			{ "ingredient": "Whiskey", "type": "liquor" },
+			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
+			{ "ingredient": "Aperol", "type": "liquor" },
+			{ "ingredient": "Citrus Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "Whiskey"},
@@ -118,10 +119,10 @@
 	{
 		"name":"Negroni",
 		"ingredients": [
-			"Gin",
-			"Sweet Vermouth",
-			"Aperol",
-			"Citrus Peel"
+			{ "ingredient": "Gin", "type": "liquor" },
+			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
+			{ "ingredient": "Aperol", "type": "liquor" },
+			{ "ingredient": "Citrus Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "Gin"},
@@ -139,10 +140,10 @@
 	{
 		"name":"Vesper Martini",
 		"ingredients": [
-			"Gin",
-			"St. Germaine",
-			"Vodka",
-			"Shiso Leaf"
+			{ "ingredient": "Gin", "type": "liquor" },
+			{ "ingredient": "St. Germaine", "type": "liquor" },
+			{ "ingredient": "Vodka", "type": "liquor" },
+			{ "ingredient": "Shiso Leaf", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 part", "ingredient": "Gin"},
@@ -159,11 +160,11 @@
 	{
 		"name":"Hong Shao Rou",
 		"ingredients": [
-			"Vodka",
-			"Liao Jiu",
-			"Simple Syrup",
-			"Star Anise",
-			"Ginger"
+			{ "ingredient": "Vodka", "type": "liquor" },
+			{ "ingredient": "Liao Jiu", "type": "liquor" },
+			{ "ingredient": "Simple Syrup", "type": "mixer" },
+			{ "ingredient": "Star Anise", "type": "garnish" },
+			{ "ingredient": "Ginger", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 part", "ingredient": "Vodka"},
@@ -181,11 +182,11 @@
 	{
 		"name":"Espresso Martini",
 		"ingredients": [
-			"Vodka",
-			"Espresso",
-			"Frangelico",
-			"Brandy",
-			"Coffee Bean"
+			{ "ingredient": "Vodka", "type": "liquor" },
+			{ "ingredient": "Frangelico", "type": "liquor" },
+			{ "ingredient": "Brandy", "type": "liquor" },
+			{ "ingredient": "Espresso", "type": "mixer" },
+			{ "ingredient": "Coffee Bean", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 part", "ingredient": "Vodka"},
@@ -204,10 +205,10 @@
 	{
 		"name":"Naughty Monk Milk Tea",
 		"ingredients": [
-			"Frangelico",
-			"Milk",
-			"Oolong",
-			"Boba"
+			{ "ingredient": "Frangelico", "type": "liquor" },
+			{ "ingredient": "Milk", "type": "mixer" },
+			{ "ingredient": "Oolong", "type": "mixer" },
+			{ "ingredient": "Boba", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "2 parts", "ingredient": "Frangelico"},
@@ -223,10 +224,10 @@
 	{
 		"name":"Tequila sunrise",
 		"ingredients": [
-			"Tequila",
-			"St. Germaine",
-			"Maraschino Syrup",
-			"Orange Juice"
+			{ "ingredient": "Tequila", "type": "liquor" },
+			{ "ingredient": "St. Germaine", "type": "liquor" },
+			{ "ingredient": "Maraschino Syrup", "type": "mixer" },
+			{ "ingredient": "Orange Juice", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "4 parts", "ingredient": "Tequila"},
@@ -242,9 +243,9 @@
 	{
 		"name":"Aperol spritz",
 		"ingredients": [
-			"Aperol",
-			"Soda Water",
-			"Aromatic Bitters"
+			{ "ingredient": "Aperol", "type": "liquor" },
+			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
+			{ "ingredient": "Soda Water", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "Aperol"},
@@ -259,8 +260,8 @@
 	{
 		"name":"Hugo spritz",
 		"ingredients": [
-			"St. Germaine",
-			"Soda Water"
+			{ "ingredient": "St. Germaine", "type": "liquor" },
+			{ "ingredient": "Soda Water", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "St. Germaine"},
@@ -274,9 +275,9 @@
 	{
 		"name":"Umechu Hai",
 		"ingredients": [
-			"Umeshu",
-			"Toki Whiskey",
-			"Soda Water"
+			{ "ingredient": "Umeshu", "type": "liquor" },
+			{ "ingredient": "Toki Whiskey", "type": "liquor" },
+			{ "ingredient": "Soda Water", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "2 parts", "ingredient": "Umeshu"},
