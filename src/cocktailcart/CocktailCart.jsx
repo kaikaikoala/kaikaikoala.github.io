@@ -67,32 +67,35 @@ export default function CocktailCart() {
           }
         </Paper>
 
-        <Box sx={{ display: 'flex', justifyContent: 'flex-end', mx: 2 }}>
-          <Button variant="outlined" onClick={toggleAll}>
-            {allSelected ? 'Hangover' : 'Binge drink'}
-          </Button>
-        </Box>
+        <Box>
+          <Typography variant="h5" sx={{ m: 2 }} gutterBottom>Cocktail list</Typography>
+          <Box sx={{ display: 'flex', justifyContent: 'flex-end', mx: 2 }}>
+            <Button variant="outlined" onClick={toggleAll}>
+              {allSelected ? 'Hangover' : 'Binge drink'}
+            </Button>
+          </Box>
 
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, m: 2 }}>
-          {recipes.map((cocktail) => {
-            const added = selectedDrinks.has(cocktail.name);
-            return (
-              <Card key={cocktail.name} variant={added ? 'outlined' : 'elevation'} sx={{ minWidth: 160 }}>
-                <CardContent>
-                  <Typography variant="h6">{cocktail.name}</Typography>
-                </CardContent>
-                <CardActions>
-                  <Button
-                    size="small"
-                    variant={added ? 'outlined' : 'contained'}
-                    onClick={() => toggleDrink(cocktail.name)}
-                  >
-                    {added ? 'Barf' : 'Drink'}
-                  </Button>
-                </CardActions>
-              </Card>
-            );
-          })}
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, m: 2 }}>
+            {recipes.map((cocktail) => {
+              const added = selectedDrinks.has(cocktail.name);
+              return (
+                <Card key={cocktail.name} variant={added ? 'outlined' : 'elevation'} sx={{ minWidth: 160 }}>
+                  <CardContent>
+                    <Typography variant="h6">{cocktail.name}</Typography>
+                  </CardContent>
+                  <CardActions>
+                    <Button
+                      size="small"
+                      variant={added ? 'outlined' : 'contained'}
+                      onClick={() => toggleDrink(cocktail.name)}
+                    >
+                      {added ? 'Barf' : 'Drink'}
+                    </Button>
+                  </CardActions>
+                </Card>
+              );
+            })}
+          </Box>
         </Box>
       </Container>
     </main>

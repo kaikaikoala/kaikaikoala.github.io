@@ -25,7 +25,7 @@
 	{
 		"name":"Manhattan",
 		"ingredients": [
-			{ "ingredient": "Rye Whiskey", "type": "liquor" },
+			{ "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
 			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
 			{ "ingredient": "Orange Bitters", "type": "liquor" },
@@ -33,7 +33,7 @@
 			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Rye Whiskey"},
+			{ "quantity": "2 parts", "ingredient": "Whiskey"},
 			{ "quantity": "1 parts", "ingredient": "Sweet Vermouth"},
 			{ "quantity": "2 dash", "ingredient": "Aromatic Bitters"},
 			{ "quantity": "1 dash", "ingredient": "Orange Bitters", "optional": true},
@@ -78,13 +78,13 @@
 	{
 		"name":"Old Fashioned",
 		"ingredients": [
-			{ "ingredient": "Bourbon Whiskey", "type": "liquor" },
+			{ "ingredient": "Whiskey", "bottle": "Bourbon", "type": "liquor" },
 			{ "ingredient": "Simple Syrup", "type": "mixer" },
 			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
 			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Bourbon Whiskey"},
+			{ "quantity": "2 parts", "ingredient": "Whiskey"},
 			{ "quantity": "1 part", "ingredient": "Simple Syrup"},
 			{ "quantity": "3 dashes", "ingredient": "Aromatic Bitters"},
 			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
@@ -101,13 +101,13 @@
 			{ "ingredient": "Whiskey", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
 			{ "ingredient": "Aperol", "type": "liquor" },
-			{ "ingredient": "Citrus Peel", "type": "garnish" }
+			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "Whiskey"},
 			{ "quantity": "1 part", "ingredient": "Sweet Vermouth"},
 			{ "quantity": "1 part", "ingredient": "Aperol"},
-			{ "quantity": "1", "ingredient": "Citrus Peel", "garnish": true}
+			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
 		],
 		"tools" : [
 			"Mixing glass",
@@ -122,13 +122,13 @@
 			{ "ingredient": "Gin", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
 			{ "ingredient": "Aperol", "type": "liquor" },
-			{ "ingredient": "Citrus Peel", "type": "garnish" }
+			{ "ingredient": "Orange Peel", "type": "garnish" }
 		],
 		"recipe": [
 			{ "quantity": "1 part", "ingredient": "Gin"},
 			{ "quantity": "1 part", "ingredient": "Sweet Vermouth"},
 			{ "quantity": "1 part", "ingredient": "Aperol"},
-			{ "quantity": "1", "ingredient": "Citrus Peel", "garnish": true}
+			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
 		],
 		"tools" : [
 			"Mixing glass",
@@ -276,12 +276,12 @@
 		"name":"Umechu Hai",
 		"ingredients": [
 			{ "ingredient": "Umeshu", "type": "liquor" },
-			{ "ingredient": "Toki Whiskey", "type": "liquor" },
+			{ "ingredient": "Whiskey", "bottle": "Toki", "type": "liquor" },
 			{ "ingredient": "Soda Water", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "2 parts", "ingredient": "Umeshu"},
-			{ "quantity": "1 part", "ingredient": "Toki Whiskey"},
+			{ "quantity": "1 part", "ingredient": "Whiskey"},
 			{ "quantity": "6 parts", "ingredient": "Soda water"}
 		],
 		"tools" : [
