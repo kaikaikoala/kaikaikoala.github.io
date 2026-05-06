@@ -1,17 +1,26 @@
 import { useState } from 'react';
 import Container from '@mui/material/Container';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
+import Checkbox from '@mui/material/Checkbox';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import recipes from './cocktail-recipe.json';
+import DrinkCard from './DrinkCard';
 
 export default function CocktailCart() {
   window.scrollTo(0, 0);
   const [selectedDrinks, setSelectedDrinks] = useState(new Set());
+  const [checkedIngredients, setCheckedIngredients] = useState(new Set());
+
+  const toggleIngredient = (name) => {
+    setCheckedIngredients((prev) => {
+      const next = new Set(prev);
+      next.has(name) ? next.delete(name) : next.add(name);
+      return next;
+    });
+  };
 
   const toggleDrink = (name) => {
     setSelectedDrinks((prev) => {
@@ -42,9 +51,19 @@ export default function CocktailCart() {
     items.length === 0 ? null : (
       <Box>
         <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mt: 1 }}>{title}</Typography>
-        <Box component="ul" sx={{ mt: 0 }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', mt: 0 }}>
           {items.map(({ ingredient }) => (
-            <li key={ingredient}><Typography variant="body1">{ingredient}</Typography></li>
+            <FormControlLabel
+              key={ingredient}
+              label={ingredient}
+              control={
+                <Checkbox
+                  checked={checkedIngredients.has(ingredient)}
+                  onChange={() => toggleIngredient(ingredient)}
+                  size="small"
+                />
+              }
+            />
           ))}
         </Box>
       </Box>
@@ -76,25 +95,14 @@ export default function CocktailCart() {
           </Box>
 
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, m: 2 }}>
-            {recipes.map((cocktail) => {
-              const added = selectedDrinks.has(cocktail.name);
-              return (
-                <Card key={cocktail.name} variant={added ? 'outlined' : 'elevation'} sx={{ minWidth: 160 }}>
-                  <CardContent>
-                    <Typography variant="h6">{cocktail.name}</Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button
-                      size="small"
-                      variant={added ? 'outlined' : 'contained'}
-                      onClick={() => toggleDrink(cocktail.name)}
-                    >
-                      {added ? 'Barf' : 'Drink'}
-                    </Button>
-                  </CardActions>
-                </Card>
-              );
-            })}
+            {recipes.map((cocktail) => (
+              <DrinkCard
+                key={cocktail.name}
+                cocktail={cocktail}
+                added={selectedDrinks.has(cocktail.name)}
+                onToggle={() => toggleDrink(cocktail.name)}
+              />
+            ))}
           </Box>
         </Box>
       </Container>

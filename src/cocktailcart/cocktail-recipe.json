@@ -1,12 +1,13 @@
 [
 	{
 		"name":"Litchi Martini",
+		"description":"Litchi forward put quite balanced. The lemon and vodka really cut the sweetness of canned litchi's to a manageable level.",
+		"image":"/images/blog/litchimartini/hero.jpg",
 		"ingredients": [
 			{ "ingredient": "Vodka", "type": "liquor" },
 			{ "ingredient": "Simple Syrup", "type": "mixer" },
-			{ "ingredient": "Litchi Syrup", "type": "mixer" },
 			{ "ingredient": "Lemon", "type": "mixer" },
-			{ "ingredient": "Canned Litchi", "type": "garnish" }
+			{ "ingredient": "Canned Litchi", "type": "mixer" }
 		],
 		"recipe": [
 			{ "quantity": "4 parts", "ingredient": "Vodka"},
@@ -24,6 +25,7 @@
 	},
 	{
 		"name":"Manhattan",
+		"description":"A spirit forward drink that's only as good as the rye you put in.",
 		"ingredients": [
 			{ "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
@@ -45,7 +47,8 @@
 			"Coupe",
 			"Cocktail pick",
 			"Knife/Citrus peeler"
-		]
+		],
+		"notes":"Adding a spoonful of Marshino Syrup can balance this drink out for people who find whiskey a bit harsh."
 	},
 	{
 		"name":"Martini",
@@ -181,6 +184,7 @@
 	},
 	{
 		"name":"Espresso Martini",
+		"image":"/images/blog/espressomartini/hero.jpg",
 		"ingredients": [
 			{ "ingredient": "Vodka", "type": "liquor" },
 			{ "ingredient": "Frangelico", "type": "liquor" },
