@@ -264,7 +264,7 @@
   },
   {
     "name": "Hugo spritz",
-    "image": "/images/cocktails/hugo-spritz.JPG",
+    "image": "/images/cocktails/aperol-spritz.jpg",
     "ingredients": [
       { "ingredient": "St. Germaine", "type": "liquor" },
       { "ingredient": "Soda Water", "type": "mixer" }
