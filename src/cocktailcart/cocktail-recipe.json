@@ -2,7 +2,7 @@
   {
     "name": "Manhattan",
     "description": "A spirit forward drink that's only as good as the rye you put in.",
-    "image": "/images/cocktails/manhattan.JPG",
+    "image": "/images/cocktails/manhattan.jpg",
     "ingredients": [
       { "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
       { "ingredient": "Sweet Vermouth", "type": "liquor" },
@@ -48,7 +48,7 @@
   },
   {
     "name": "Martini",
-    "image": "/images/cocktails/martini.JPG",
+    "image": "/images/cocktails/martini.jpg",
     "ingredients": [
       { "ingredient": "Vodka", "type": "liquor" },
       { "ingredient": "Gin", "type": "liquor" },
@@ -148,7 +148,7 @@
   },
   {
     "name": "Hong Shao Rou",
-    "image": "/images/cocktails/hong-shao-rou.JPG",
+    "image": "/images/cocktails/hong-shao-rou.jpg",
     "ingredients": [
       { "ingredient": "Vodka", "type": "liquor" },
       { "ingredient": "Liao Jiu", "type": "liquor" },
