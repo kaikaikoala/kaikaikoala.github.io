@@ -26,6 +26,7 @@
 	{
 		"name":"Manhattan",
 		"description":"A spirit forward drink that's only as good as the rye you put in.",
+		"image":"/images/cocktails/manhattan.JPG",
 		"ingredients": [
 			{ "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
@@ -52,6 +53,7 @@
 	},
 	{
 		"name":"Martini",
+		"image":"/images/cocktails/martini.JPG",
 		"ingredients": [
 			{ "ingredient": "Vodka", "type": "liquor" },
 			{ "ingredient": "Gin", "type": "liquor" },
@@ -80,6 +82,7 @@
 	},
 	{
 		"name":"Old Fashioned",
+		"image":"/images/cocktails/old-fashioned.jpg",
 		"ingredients": [
 			{ "ingredient": "Whiskey", "bottle": "Bourbon", "type": "liquor" },
 			{ "ingredient": "Simple Syrup", "type": "mixer" },
@@ -100,6 +103,7 @@
 	},
 	{
 		"name":"Boulevardier",
+		"image":"/images/cocktails/boulevardier.jpg",
 		"ingredients": [
 			{ "ingredient": "Whiskey", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
@@ -121,6 +125,7 @@
 	},
 	{
 		"name":"Negroni",
+		"image":"/images/cocktails/negroni.png",
 		"ingredients": [
 			{ "ingredient": "Gin", "type": "liquor" },
 			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
@@ -142,6 +147,7 @@
 	},
 	{
 		"name":"Vesper Martini",
+		"image":"/images/cocktails/vesper.jpg",
 		"ingredients": [
 			{ "ingredient": "Gin", "type": "liquor" },
 			{ "ingredient": "St. Germaine", "type": "liquor" },
@@ -162,6 +168,7 @@
 	},
 	{
 		"name":"Hong Shao Rou",
+		"image":"/images/cocktails/hong-shao-rou.JPG",
 		"ingredients": [
 			{ "ingredient": "Vodka", "type": "liquor" },
 			{ "ingredient": "Liao Jiu", "type": "liquor" },
@@ -208,6 +215,7 @@
 	},
 	{
 		"name":"Naughty Monk Milk Tea",
+		"image":"/images/cocktails/boba.jpg",
 		"ingredients": [
 			{ "ingredient": "Frangelico", "type": "liquor" },
 			{ "ingredient": "Milk", "type": "mixer" },
@@ -227,6 +235,7 @@
 	},
 	{
 		"name":"Tequila sunrise",
+		"image":"/images/cocktails/tequila-sunrise.jpg",
 		"ingredients": [
 			{ "ingredient": "Tequila", "type": "liquor" },
 			{ "ingredient": "St. Germaine", "type": "liquor" },
@@ -246,6 +255,7 @@
 	},
 	{
 		"name":"Aperol spritz",
+		"image":"/images/cocktails/aperol-spritz.jpg",
 		"ingredients": [
 			{ "ingredient": "Aperol", "type": "liquor" },
 			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
@@ -262,7 +272,25 @@
 		"notes":"Option to add Prosecco for a stiffer drink."
 	},
 	{
+		"name":"Gin and Tonic",
+		"image":"/images/cocktails/gin-tonic.jpg",
+		"ingredients": [
+			{ "ingredient": "Gin", "type": "liquor" },
+			{ "ingredient": "Tonic Water", "type": "mixer" }
+		],
+		"recipe": [
+			{ "quantity": "1 part", "ingredient": "Gin"},
+			{ "quantity": "4 parts", "ingredient": "Tonic water"},
+			{ "quantity": "1", "ingredient": "Lemon slice"}
+		],
+		"tools" : [
+			"Highball glass"
+		],
+		"notes":"The gin and the garnish has a large impact on this drink. I like Roku gin with a lemon slice. How my dad takes it!"
+	},
+	{
 		"name":"Hugo spritz",
+		"image":"/images/cocktails/hugo-spritz.JPG",
 		"ingredients": [
 			{ "ingredient": "St. Germaine", "type": "liquor" },
 			{ "ingredient": "Soda Water", "type": "mixer" }
@@ -278,6 +306,7 @@
 	},
 	{
 		"name":"Umechu Hai",
+		"image":"/images/cocktails/ume-chu-hai.jpg",
 		"ingredients": [
 			{ "ingredient": "Umeshu", "type": "liquor" },
 			{ "ingredient": "Whiskey", "bottle": "Toki", "type": "liquor" },

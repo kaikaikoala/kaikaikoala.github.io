@@ -3,11 +3,9 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Paper from '@mui/material/Paper';
-import Checkbox from '@mui/material/Checkbox';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import recipes from './cocktail-recipe.json';
 import DrinkCard from './DrinkCard';
+import ShoppingCart from './ShoppingCart';
 
 export default function CocktailCart() {
   window.scrollTo(0, 0);
@@ -47,44 +45,17 @@ export default function CocktailCart() {
 
   const byType = (type) => uniqueIngredients.filter((i) => i.type === type);
 
-  const ShoppingSection = ({ title, items }) =>
-    items.length === 0 ? null : (
-      <Box>
-        <Typography variant="subtitle1" sx={{ fontWeight: 'bold', mt: 1 }}>{title}</Typography>
-        <Box sx={{ display: 'flex', flexDirection: 'column', mt: 0 }}>
-          {items.map(({ ingredient }) => (
-            <FormControlLabel
-              key={ingredient}
-              label={ingredient}
-              control={
-                <Checkbox
-                  checked={checkedIngredients.has(ingredient)}
-                  onChange={() => toggleIngredient(ingredient)}
-                  size="small"
-                />
-              }
-            />
-          ))}
-        </Box>
-      </Box>
-    );
-
   return (
     <main>
       <Container>
         <Typography variant="h2" sx={{ m: 2 }}>Cocktail Cart</Typography>
 
-        <Paper sx={{ m: 2, p: 2 }}>
-          <Typography variant="h5" gutterBottom>Shopping List</Typography>
-          {uniqueIngredients.length === 0
-            ? <Typography variant="body2" color="text.secondary">Add a drink to build your shopping list.</Typography>
-            : <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }}>
-                <ShoppingSection title="Liquor" items={byType('liquor')} />
-                <ShoppingSection title="Mixer" items={byType('mixer')} />
-                <ShoppingSection title="Garnish" items={byType('garnish')} />
-              </Box>
-          }
-        </Paper>
+        <ShoppingCart
+          uniqueIngredients={uniqueIngredients}
+          byType={byType}
+          checkedIngredients={checkedIngredients}
+          toggleIngredient={toggleIngredient}
+        />
 
         <Box>
           <Typography variant="h5" sx={{ m: 2 }} gutterBottom>Cocktail list</Typography>
