@@ -11,13 +11,12 @@ export default function DrinkCard({ cocktail, added, onToggle }) {
   const [anchorEl, setAnchorEl] = useState(null);
 
   return (
-    <Card variant={added ? 'outlined' : 'elevation'} sx={{ width: 200 }}>
+    <Card variant={added ? 'outlined' : 'elevation'}>
       {cocktail.image && (
         <CardMedia
           component="img"
           image={cocktail.image}
           alt={cocktail.name}
-          sx={{ height: 160, objectFit: 'cover' }}
         />
       )}
       <CardContent>

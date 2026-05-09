@@ -1,325 +1,295 @@
 [
-	{
-		"name":"Litchi Martini",
-		"description":"Litchi forward put quite balanced. The lemon and vodka really cut the sweetness of canned litchi's to a manageable level.",
-		"image":"/images/blog/litchimartini/hero.jpg",
-		"ingredients": [
-			{ "ingredient": "Vodka", "type": "liquor" },
-			{ "ingredient": "Simple Syrup", "type": "mixer" },
-			{ "ingredient": "Lemon", "type": "mixer" },
-			{ "ingredient": "Canned Litchi", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "4 parts", "ingredient": "Vodka"},
-			{ "quantity": "1 parts", "ingredient": "Simple Syrup"},
-			{ "quantity": "3 parts", "ingredient": "Litchi Syrup"},
-			{ "quantity": "1/2", "ingredient": "Lemon"},
-			{ "quantity": "2", "ingredient": "Canned Litchi", "garnish": true}
-		],
-		"tools" : [
-			"Shaker",
-			"Martini glass",
-			"Cocktail pick"
-		],
-		"notes":"This can be done in the gin style as well. If with gin we reduce the amount of Litchi syrup to 2 parts"
-	},
-	{
-		"name":"Manhattan",
-		"description":"A spirit forward drink that's only as good as the rye you put in.",
-		"image":"/images/cocktails/manhattan.JPG",
-		"ingredients": [
-			{ "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
-			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
-			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
-			{ "ingredient": "Orange Bitters", "type": "liquor" },
-			{ "ingredient": "Luxardo Cherries", "type": "garnish" },
-			{ "ingredient": "Orange Peel", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Whiskey"},
-			{ "quantity": "1 parts", "ingredient": "Sweet Vermouth"},
-			{ "quantity": "2 dash", "ingredient": "Aromatic Bitters"},
-			{ "quantity": "1 dash", "ingredient": "Orange Bitters", "optional": true},
-			{ "quantity": "2", "ingredient": "Luxardo Cherries", "garnish": true},
-			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Coupe",
-			"Cocktail pick",
-			"Knife/Citrus peeler"
-		],
-		"notes":"Adding a spoonful of Marshino Syrup can balance this drink out for people who find whiskey a bit harsh."
-	},
-	{
-		"name":"Martini",
-		"image":"/images/cocktails/martini.JPG",
-		"ingredients": [
-			{ "ingredient": "Vodka", "type": "liquor" },
-			{ "ingredient": "Gin", "type": "liquor" },
-			{ "ingredient": "Dry Vermouth", "type": "liquor" },
-			{ "ingredient": "Olive Juice", "type": "mixer" },
-			{ "ingredient": "Water", "type": "mixer" },
-			{ "ingredient": "Olive", "type": "garnish" },
-			{ "ingredient": "Lemon Peel", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "3 parts", "ingredient": "Vodka"},
-			{ "quantity": "1 part", "ingredient": "Gin", "optional": true},
-			{ "quantity": "1 part", "ingredient": "Dry Vermouth"},
-			{ "quantity": "1 part", "ingredient": "Olive Juice"},
-			{ "quantity": "1 part", "ingredient": "Water"},
-			{ "quantity": "2", "ingredient": "Olive", "garnish": true},
-			{ "quantity": "1", "ingredient": "Lemon Peel", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Martini glass",
-			"Cocktail pick",
-			"Knife/Citrus peeler"
-		],
-		"notes":"Many variants of the Martini exist: gin based, dry, dirty (this one is dirty), in-n-out, perfect (sweeth vermouth and dry vermouth). This is what I like the best"
-	},
-	{
-		"name":"Old Fashioned",
-		"image":"/images/cocktails/old-fashioned.jpg",
-		"ingredients": [
-			{ "ingredient": "Whiskey", "bottle": "Bourbon", "type": "liquor" },
-			{ "ingredient": "Simple Syrup", "type": "mixer" },
-			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
-			{ "ingredient": "Orange Peel", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Whiskey"},
-			{ "quantity": "1 part", "ingredient": "Simple Syrup"},
-			{ "quantity": "3 dashes", "ingredient": "Aromatic Bitters"},
-			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Tumbler",
-			"Knife/Citrus peeler"
-		]
-	},
-	{
-		"name":"Boulevardier",
-		"image":"/images/cocktails/boulevardier.jpg",
-		"ingredients": [
-			{ "ingredient": "Whiskey", "type": "liquor" },
-			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
-			{ "ingredient": "Aperol", "type": "liquor" },
-			{ "ingredient": "Orange Peel", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "1 part", "ingredient": "Whiskey"},
-			{ "quantity": "1 part", "ingredient": "Sweet Vermouth"},
-			{ "quantity": "1 part", "ingredient": "Aperol"},
-			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Tumbler",
-			"Knife/Citrus peeler"
-		],
-		"notes":"Traditionally a Boulevardier is a whiskey variant of a negroni which classically has Campari. I find that the sweetness of Aperol makes a more pleasant drink"
-	},
-	{
-		"name":"Negroni",
-		"image":"/images/cocktails/negroni.png",
-		"ingredients": [
-			{ "ingredient": "Gin", "type": "liquor" },
-			{ "ingredient": "Sweet Vermouth", "type": "liquor" },
-			{ "ingredient": "Aperol", "type": "liquor" },
-			{ "ingredient": "Orange Peel", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "1 part", "ingredient": "Gin"},
-			{ "quantity": "1 part", "ingredient": "Sweet Vermouth"},
-			{ "quantity": "1 part", "ingredient": "Aperol"},
-			{ "quantity": "1", "ingredient": "Orange Peel", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Tumbler",
-			"Knife/Citrus peeler"
-		],
-		"notes":"Traditionally done with Campari. However, I prefer the sweetness of Aperol."
-	},
-	{
-		"name":"Vesper Martini",
-		"image":"/images/cocktails/vesper.jpg",
-		"ingredients": [
-			{ "ingredient": "Gin", "type": "liquor" },
-			{ "ingredient": "St. Germaine", "type": "liquor" },
-			{ "ingredient": "Vodka", "type": "liquor" },
-			{ "ingredient": "Shiso Leaf", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 part", "ingredient": "Gin"},
-			{ "quantity": "1 part", "ingredient": "St. Germaine"},
-			{ "quantity": "1 part", "ingredient": "Vodka"},
-			{ "quantity": "1", "ingredient": "Shiso Leaf", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Martini glass"
-		],
-		"notes":"Typically garnished with a Lemon peel, but I feel the shiso garnish is so much better."
-	},
-	{
-		"name":"Hong Shao Rou",
-		"image":"/images/cocktails/hong-shao-rou.JPG",
-		"ingredients": [
-			{ "ingredient": "Vodka", "type": "liquor" },
-			{ "ingredient": "Liao Jiu", "type": "liquor" },
-			{ "ingredient": "Simple Syrup", "type": "mixer" },
-			{ "ingredient": "Star Anise", "type": "garnish" },
-			{ "ingredient": "Ginger", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 part", "ingredient": "Vodka"},
-			{ "quantity": "1 part", "ingredient": "Liao Jiu"},
-			{ "quantity": "1 part", "ingredient": "Simple Syrup"},
-			{ "quantity": "1", "ingredient": "Star Anise", "garnish": true},
-			{ "quantity": "1", "ingredient": "Ginger", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Martini glass"
-		],
-		"notes":"This is a Chinese inspired Martini. The Liao Jiu, Star Anise, and ginger is a common combination for braising meats like the pork that inspired the name of this drink."
-	},
-	{
-		"name":"Espresso Martini",
-		"image":"/images/blog/espressomartini/hero.jpg",
-		"ingredients": [
-			{ "ingredient": "Vodka", "type": "liquor" },
-			{ "ingredient": "Frangelico", "type": "liquor" },
-			{ "ingredient": "Brandy", "type": "liquor" },
-			{ "ingredient": "Espresso", "type": "mixer" },
-			{ "ingredient": "Coffee Bean", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 part", "ingredient": "Vodka"},
-			{ "quantity": "Double shot", "ingredient": "Espresso"},
-			{ "quantity": "1 part", "ingredient": "Frangelico"},
-			{ "quantity": "1 part", "ingredient": "Brandy"},
-			{ "quantity": "3", "ingredient": "Coffee Bean", "garnish": true}
-		],
-		"tools" : [
-			"Mixing glass",
-			"Espresso machine",
-			"Martini glass"
-		],
-		"notes":"An inspired riff on this drink is with Tequila. In this case no Frangelico. Another surprisingly good addition to an Espresso Martini is a Citrus garnish."
-	},
-	{
-		"name":"Naughty Monk Milk Tea",
-		"image":"/images/cocktails/boba.jpg",
-		"ingredients": [
-			{ "ingredient": "Frangelico", "type": "liquor" },
-			{ "ingredient": "Milk", "type": "mixer" },
-			{ "ingredient": "Oolong", "type": "mixer" },
-			{ "ingredient": "Boba", "type": "garnish" }
-		],
-		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Frangelico"},
-			{ "quantity": "3 parts", "ingredient": "Milk"},
-			{ "quantity": "2 parts", "ingredient": "Oolong"},
-			{ "quantity": "3", "ingredient": "Boba", "garnish": true, "optional": true}
-		],
-		"tools" : [
-			"Mixing glass"
-		],
-		"notes":"Frangelico bottle is inspired by the Monk. Boba totally optional."
-	},
-	{
-		"name":"Tequila sunrise",
-		"image":"/images/cocktails/tequila-sunrise.jpg",
-		"ingredients": [
-			{ "ingredient": "Tequila", "type": "liquor" },
-			{ "ingredient": "St. Germaine", "type": "liquor" },
-			{ "ingredient": "Maraschino Syrup", "type": "mixer" },
-			{ "ingredient": "Orange Juice", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "4 parts", "ingredient": "Tequila"},
-			{ "quantity": "1 part", "ingredient": "St. Germaine"},
-			{ "quantity": "1 spoon", "ingredient": "Maraschino Syrup"},
-			{ "quantity": "Fill glass", "ingredient": "Orange Juice"}
-		],
-		"tools" : [
-			"Highball glass"
-		],
-		"notes":"Best with fresh squeezed orange juice."
-	},
-	{
-		"name":"Aperol spritz",
-		"image":"/images/cocktails/aperol-spritz.jpg",
-		"ingredients": [
-			{ "ingredient": "Aperol", "type": "liquor" },
-			{ "ingredient": "Aromatic Bitters", "type": "liquor" },
-			{ "ingredient": "Soda Water", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "1 part", "ingredient": "Aperol"},
-			{ "quantity": "3 parts", "ingredient": "Soda water"},
-			{ "quantity": "1 dash", "ingredient": "Aromatic Bitters", "optional": true}
-		],
-		"tools" : [
-			"Highball glass"
-		],
-		"notes":"Option to add Prosecco for a stiffer drink."
-	},
-	{
-		"name":"Gin and Tonic",
-		"image":"/images/cocktails/gin-tonic.jpg",
-		"ingredients": [
-			{ "ingredient": "Gin", "type": "liquor" },
-			{ "ingredient": "Tonic Water", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "1 part", "ingredient": "Gin"},
-			{ "quantity": "4 parts", "ingredient": "Tonic water"},
-			{ "quantity": "1", "ingredient": "Lemon slice"}
-		],
-		"tools" : [
-			"Highball glass"
-		],
-		"notes":"The gin and the garnish has a large impact on this drink. I like Roku gin with a lemon slice. How my dad takes it!"
-	},
-	{
-		"name":"Hugo spritz",
-		"image":"/images/cocktails/hugo-spritz.JPG",
-		"ingredients": [
-			{ "ingredient": "St. Germaine", "type": "liquor" },
-			{ "ingredient": "Soda Water", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "1 part", "ingredient": "St. Germaine"},
-			{ "quantity": "3 parts", "ingredient": "Soda water"}
-		],
-		"tools" : [
-			"Highball glass"
-		],
-		"notes":"Option to add Prosecco or Vodka for a stiffer drink."
-	},
-	{
-		"name":"Umechu Hai",
-		"image":"/images/cocktails/ume-chu-hai.jpg",
-		"ingredients": [
-			{ "ingredient": "Umeshu", "type": "liquor" },
-			{ "ingredient": "Whiskey", "bottle": "Toki", "type": "liquor" },
-			{ "ingredient": "Soda Water", "type": "mixer" }
-		],
-		"recipe": [
-			{ "quantity": "2 parts", "ingredient": "Umeshu"},
-			{ "quantity": "1 part", "ingredient": "Whiskey"},
-			{ "quantity": "6 parts", "ingredient": "Soda water"}
-		],
-		"tools" : [
-			"Highball glass"
-		],
-		"notes":"Option to add Prosecco for a stiffer drink."
-	}
+  {
+    "name": "Manhattan",
+    "description": "A spirit forward drink that's only as good as the rye you put in.",
+    "image": "/images/cocktails/manhattan.JPG",
+    "ingredients": [
+      { "ingredient": "Whiskey", "bottle": "Rye", "type": "liquor" },
+      { "ingredient": "Sweet Vermouth", "type": "liquor" },
+      { "ingredient": "Aromatic Bitters", "type": "liquor" },
+      { "ingredient": "Orange Bitters", "type": "liquor" },
+      { "ingredient": "Luxardo Cherries", "type": "garnish" },
+      { "ingredient": "Orange Peel", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 parts", "ingredient": "Whiskey" },
+      { "quantity": "1 parts", "ingredient": "Sweet Vermouth" },
+      { "quantity": "2 dash", "ingredient": "Aromatic Bitters" },
+      {
+        "quantity": "1 dash",
+        "ingredient": "Orange Bitters",
+        "optional": true
+      },
+      { "quantity": "2", "ingredient": "Luxardo Cherries", "garnish": true },
+      { "quantity": "1", "ingredient": "Orange Peel", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Coupe", "Cocktail pick", "Knife/Citrus peeler"],
+    "notes": "Adding a spoonful of Marshino Syrup can balance this drink out for people who find whiskey a bit harsh."
+  },
+  {
+    "name": "Litchi Martini",
+    "description": "Litchi forward put quite balanced. The lemon and vodka really cut the sweetness of canned litchi's to a manageable level.",
+    "image": "/images/blog/litchimartini/hero.jpg",
+    "ingredients": [
+      { "ingredient": "Vodka", "type": "liquor" },
+      { "ingredient": "Simple Syrup", "type": "mixer" },
+      { "ingredient": "Lemon", "type": "mixer" },
+      { "ingredient": "Canned Litchi", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "4 parts", "ingredient": "Vodka" },
+      { "quantity": "1 parts", "ingredient": "Simple Syrup" },
+      { "quantity": "3 parts", "ingredient": "Litchi Syrup" },
+      { "quantity": "1/2", "ingredient": "Lemon" },
+      { "quantity": "2", "ingredient": "Canned Litchi", "garnish": true }
+    ],
+    "tools": ["Shaker", "Martini glass", "Cocktail pick"],
+    "notes": "This can be done in the gin style as well. If with gin we reduce the amount of Litchi syrup to 2 parts"
+  },
+  {
+    "name": "Martini",
+    "image": "/images/cocktails/martini.JPG",
+    "ingredients": [
+      { "ingredient": "Vodka", "type": "liquor" },
+      { "ingredient": "Gin", "type": "liquor" },
+      { "ingredient": "Dry Vermouth", "type": "liquor" },
+      { "ingredient": "Olive Juice", "type": "mixer" },
+      { "ingredient": "Water", "type": "mixer" },
+      { "ingredient": "Olive", "type": "garnish" },
+      { "ingredient": "Lemon Peel", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "3 parts", "ingredient": "Vodka" },
+      { "quantity": "1 part", "ingredient": "Gin", "optional": true },
+      { "quantity": "1 part", "ingredient": "Dry Vermouth" },
+      { "quantity": "1 part", "ingredient": "Olive Juice" },
+      { "quantity": "1 part", "ingredient": "Water" },
+      { "quantity": "2", "ingredient": "Olive", "garnish": true },
+      { "quantity": "1", "ingredient": "Lemon Peel", "garnish": true }
+    ],
+    "tools": [
+      "Mixing glass",
+      "Martini glass",
+      "Cocktail pick",
+      "Knife/Citrus peeler"
+    ],
+    "notes": "Many variants of the Martini exist: gin based, dry, dirty (this one is dirty), in-n-out, perfect (sweeth vermouth and dry vermouth). This is what I like the best"
+  },
+  {
+    "name": "Boulevardier",
+    "image": "/images/cocktails/boulevardier.jpg",
+    "ingredients": [
+      { "ingredient": "Whiskey", "type": "liquor" },
+      { "ingredient": "Sweet Vermouth", "type": "liquor" },
+      { "ingredient": "Aperol", "type": "liquor" },
+      { "ingredient": "Orange Peel", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "1 part", "ingredient": "Whiskey" },
+      { "quantity": "1 part", "ingredient": "Sweet Vermouth" },
+      { "quantity": "1 part", "ingredient": "Aperol" },
+      { "quantity": "1", "ingredient": "Orange Peel", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Tumbler", "Knife/Citrus peeler"],
+    "notes": "Traditionally a Boulevardier is a whiskey variant of a negroni which classically has Campari. I find that the sweetness of Aperol makes a more pleasant drink"
+  },
+  {
+    "name": "Old Fashioned",
+    "image": "/images/cocktails/old-fashioned.jpg",
+    "ingredients": [
+      { "ingredient": "Whiskey", "bottle": "Bourbon", "type": "liquor" },
+      { "ingredient": "Simple Syrup", "type": "mixer" },
+      { "ingredient": "Aromatic Bitters", "type": "liquor" },
+      { "ingredient": "Orange Peel", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 parts", "ingredient": "Whiskey" },
+      { "quantity": "1 part", "ingredient": "Simple Syrup" },
+      { "quantity": "3 dashes", "ingredient": "Aromatic Bitters" },
+      { "quantity": "1", "ingredient": "Orange Peel", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Tumbler", "Knife/Citrus peeler"]
+  },
+  {
+    "name": "Negroni",
+    "image": "/images/cocktails/negroni.png",
+    "ingredients": [
+      { "ingredient": "Gin", "type": "liquor" },
+      { "ingredient": "Sweet Vermouth", "type": "liquor" },
+      { "ingredient": "Aperol", "type": "liquor" },
+      { "ingredient": "Orange Peel", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "1 part", "ingredient": "Gin" },
+      { "quantity": "1 part", "ingredient": "Sweet Vermouth" },
+      { "quantity": "1 part", "ingredient": "Aperol" },
+      { "quantity": "1", "ingredient": "Orange Peel", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Tumbler", "Knife/Citrus peeler"],
+    "notes": "Traditionally done with Campari. However, I prefer the sweetness of Aperol."
+  },
+  {
+    "name": "Vesper Martini",
+    "image": "/images/cocktails/vesper.jpg",
+    "ingredients": [
+      { "ingredient": "Gin", "type": "liquor" },
+      { "ingredient": "St. Germaine", "type": "liquor" },
+      { "ingredient": "Vodka", "type": "liquor" },
+      { "ingredient": "Shiso Leaf", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 part", "ingredient": "Gin" },
+      { "quantity": "1 part", "ingredient": "St. Germaine" },
+      { "quantity": "1 part", "ingredient": "Vodka" },
+      { "quantity": "1", "ingredient": "Shiso Leaf", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Martini glass"],
+    "notes": "Typically garnished with a Lemon peel, but I feel the shiso garnish is so much better."
+  },
+  {
+    "name": "Hong Shao Rou",
+    "image": "/images/cocktails/hong-shao-rou.JPG",
+    "ingredients": [
+      { "ingredient": "Vodka", "type": "liquor" },
+      { "ingredient": "Liao Jiu", "type": "liquor" },
+      { "ingredient": "Simple Syrup", "type": "mixer" },
+      { "ingredient": "Star Anise", "type": "garnish" },
+      { "ingredient": "Ginger", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 part", "ingredient": "Vodka" },
+      { "quantity": "1 part", "ingredient": "Liao Jiu" },
+      { "quantity": "1 part", "ingredient": "Simple Syrup" },
+      { "quantity": "1", "ingredient": "Star Anise", "garnish": true },
+      { "quantity": "1", "ingredient": "Ginger", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Martini glass"],
+    "notes": "This is a Chinese inspired Martini. The Liao Jiu, Star Anise, and ginger is a common combination for braising meats like the pork that inspired the name of this drink."
+  },
+  {
+    "name": "Espresso Martini",
+    "image": "/images/blog/espressomartini/hero.jpg",
+    "ingredients": [
+      { "ingredient": "Vodka", "type": "liquor" },
+      { "ingredient": "Frangelico", "type": "liquor" },
+      { "ingredient": "Brandy", "type": "liquor" },
+      { "ingredient": "Espresso", "type": "mixer" },
+      { "ingredient": "Coffee Bean", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 part", "ingredient": "Vodka" },
+      { "quantity": "Double shot", "ingredient": "Espresso" },
+      { "quantity": "1 part", "ingredient": "Frangelico" },
+      { "quantity": "1 part", "ingredient": "Brandy" },
+      { "quantity": "3", "ingredient": "Coffee Bean", "garnish": true }
+    ],
+    "tools": ["Mixing glass", "Espresso machine", "Martini glass"],
+    "notes": "An inspired riff on this drink is with Tequila. In this case no Frangelico. Another surprisingly good addition to an Espresso Martini is a Citrus garnish."
+  },
+  {
+    "name": "Naughty Monk Milk Tea",
+    "image": "/images/cocktails/boba.jpg",
+    "ingredients": [
+      { "ingredient": "Frangelico", "type": "liquor" },
+      { "ingredient": "Milk", "type": "mixer" },
+      { "ingredient": "Oolong", "type": "mixer" },
+      { "ingredient": "Boba", "type": "garnish" }
+    ],
+    "recipe": [
+      { "quantity": "2 parts", "ingredient": "Frangelico" },
+      { "quantity": "3 parts", "ingredient": "Milk" },
+      { "quantity": "2 parts", "ingredient": "Oolong" },
+      {
+        "quantity": "3",
+        "ingredient": "Boba",
+        "garnish": true,
+        "optional": true
+      }
+    ],
+    "tools": ["Mixing glass"],
+    "notes": "Frangelico bottle is inspired by the Monk. Boba totally optional."
+  },
+  {
+    "name": "Tequila sunrise",
+    "image": "/images/cocktails/tequila-sunrise.jpg",
+    "ingredients": [
+      { "ingredient": "Tequila", "type": "liquor" },
+      { "ingredient": "St. Germaine", "type": "liquor" },
+      { "ingredient": "Maraschino Syrup", "type": "mixer" },
+      { "ingredient": "Orange Juice", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "4 parts", "ingredient": "Tequila" },
+      { "quantity": "1 part", "ingredient": "St. Germaine" },
+      { "quantity": "1 spoon", "ingredient": "Maraschino Syrup" },
+      { "quantity": "Fill glass", "ingredient": "Orange Juice" }
+    ],
+    "tools": ["Highball glass"],
+    "notes": "Best with fresh squeezed orange juice."
+  },
+  {
+    "name": "Aperol spritz",
+    "image": "/images/cocktails/aperol-spritz.jpg",
+    "ingredients": [
+      { "ingredient": "Aperol", "type": "liquor" },
+      { "ingredient": "Aromatic Bitters", "type": "liquor" },
+      { "ingredient": "Soda Water", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "1 part", "ingredient": "Aperol" },
+      { "quantity": "3 parts", "ingredient": "Soda water" },
+      {
+        "quantity": "1 dash",
+        "ingredient": "Aromatic Bitters",
+        "optional": true
+      }
+    ],
+    "tools": ["Highball glass"],
+    "notes": "Option to add Prosecco for a stiffer drink."
+  },
+  {
+    "name": "Gin and Tonic",
+    "image": "/images/cocktails/gin-tonic.jpg",
+    "ingredients": [
+      { "ingredient": "Gin", "type": "liquor" },
+      { "ingredient": "Tonic Water", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "1 part", "ingredient": "Gin" },
+      { "quantity": "4 parts", "ingredient": "Tonic water" },
+      { "quantity": "1", "ingredient": "Lemon slice" }
+    ],
+    "tools": ["Highball glass"],
+    "notes": "The gin and the garnish has a large impact on this drink. I like Roku gin with a lemon slice. How my dad takes it!"
+  },
+  {
+    "name": "Hugo spritz",
+    "image": "/images/cocktails/hugo-spritz.JPG",
+    "ingredients": [
+      { "ingredient": "St. Germaine", "type": "liquor" },
+      { "ingredient": "Soda Water", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "1 part", "ingredient": "St. Germaine" },
+      { "quantity": "3 parts", "ingredient": "Soda water" }
+    ],
+    "tools": ["Highball glass"],
+    "notes": "Option to add Prosecco or Vodka for a stiffer drink."
+  },
+  {
+    "name": "Umechu Hai",
+    "image": "/images/cocktails/ume-chu-hai.jpg",
+    "ingredients": [
+      { "ingredient": "Umeshu", "type": "liquor" },
+      { "ingredient": "Whiskey", "bottle": "Toki", "type": "liquor" },
+      { "ingredient": "Soda Water", "type": "mixer" }
+    ],
+    "recipe": [
+      { "quantity": "2 parts", "ingredient": "Umeshu" },
+      { "quantity": "1 part", "ingredient": "Whiskey" },
+      { "quantity": "6 parts", "ingredient": "Soda water" }
+    ],
+    "tools": ["Highball glass"],
+    "notes": "Option to add Prosecco for a stiffer drink."
+  }
 ]

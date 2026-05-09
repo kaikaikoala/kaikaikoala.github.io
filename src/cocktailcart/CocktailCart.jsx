@@ -3,6 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import Masonry from '@mui/lab/Masonry';
 import recipes from './cocktail-recipe.json';
 import DrinkCard from './DrinkCard';
 import ShoppingCart from './ShoppingCart';
@@ -65,7 +66,7 @@ export default function CocktailCart() {
             </Button>
           </Box>
 
-          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, m: 2 }}>
+          <Masonry columns={{ xs: 2, sm: 4 }} spacing={2} sx={{ m: 1 }}>
             {recipes.map((cocktail) => (
               <DrinkCard
                 key={cocktail.name}
@@ -74,7 +75,7 @@ export default function CocktailCart() {
                 onToggle={() => toggleDrink(cocktail.name)}
               />
             ))}
-          </Box>
+          </Masonry>
         </Box>
       </Container>
     </main>
