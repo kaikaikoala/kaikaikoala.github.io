@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Masonry from '@mui/lab/Masonry';
-import recipes from './cocktail-recipe.json';
-import DrinkCard from './DrinkCard';
-import ShoppingCart from './ShoppingCart';
+import { useState } from "react";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Masonry from "@mui/lab/Masonry";
+import recipes from "./cocktail-recipe.json";
+import DrinkCard from "./DrinkCard";
+import ShoppingCart from "./ShoppingCart";
 
 export default function CocktailCart() {
   window.scrollTo(0, 0);
@@ -32,7 +32,9 @@ export default function CocktailCart() {
   const allSelected = selectedDrinks.size === recipes.length;
 
   const toggleAll = () => {
-    setSelectedDrinks(allSelected ? new Set() : new Set(recipes.map((r) => r.name)));
+    setSelectedDrinks(
+      allSelected ? new Set() : new Set(recipes.map((r) => r.name)),
+    );
   };
 
   const allIngredients = recipes
@@ -41,7 +43,9 @@ export default function CocktailCart() {
 
   const seen = new Set();
   const uniqueIngredients = allIngredients
-    .filter(({ ingredient }) => seen.has(ingredient) ? false : seen.add(ingredient))
+    .filter(({ ingredient }) =>
+      seen.has(ingredient) ? false : seen.add(ingredient),
+    )
     .sort((a, b) => a.ingredient.localeCompare(b.ingredient));
 
   const byType = (type) => uniqueIngredients.filter((i) => i.type === type);
@@ -49,7 +53,9 @@ export default function CocktailCart() {
   return (
     <main>
       <Container>
-        <Typography variant="h2" sx={{ m: 2 }}>Cocktail Cart</Typography>
+        <Typography variant="h2" sx={{ m: 2 }}>
+          Cocktail Cart
+        </Typography>
 
         <ShoppingCart
           uniqueIngredients={uniqueIngredients}
@@ -59,14 +65,22 @@ export default function CocktailCart() {
         />
 
         <Box>
-          <Typography variant="h5" sx={{ m: 2 }} gutterBottom>Cocktail list</Typography>
-          <Box sx={{ display: 'flex', justifyContent: 'flex-end', mx: 2 }}>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              mx: 2,
+              my: 1,
+            }}
+          >
+            <Typography variant="h5">Cocktail list</Typography>
             <Button variant="outlined" onClick={toggleAll}>
-              {allSelected ? 'Hangover' : 'Binge drink'}
+              {allSelected ? "Hangover" : "Binge drink"}
             </Button>
           </Box>
 
-          <Masonry columns={{ xs: 2, sm: 4 }} spacing={2} sx={{ m: 1 }}>
+          <Masonry columns={{ xs: 2, sm: 4 }} sx={{ mt: 2 }}>
             {recipes.map((cocktail) => (
               <DrinkCard
                 key={cocktail.name}
